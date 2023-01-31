@@ -1,0 +1,345 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xml:lang="en">
+	<HEAD>
+		<!-- Begin header -->
+		<title>ZZT Ultra - The Hall of Music</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta name="keywords" content="zzt,game,epic,classic,PC,DOS,freeware,flash">
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="http://www.chriskallen.com/zzt/logo_compact.gif" />
+		<LINK href="zzt.css" type="text/css" rel="stylesheet">
+		<!-- End header -->
+
+<!-- Imports -->
+<script type='text/javascript' src='utils.js'></script>
+<script type='text/javascript' src='ByteArray.js'></script>
+<script type='text/javascript' src='Sounds.js'></script>
+<script type='text/javascript' src='FxEnvelope.js'></script>
+<script type='text/javascript' src='soundTest.js'></script>
+	</HEAD>
+
+	<!-- Begin bodydef -->
+	<body text="#FFFFFF" vLink="#CFCFA0" aLink="#CFCFA0" link="#FFFFC0" bgColor="#000030">
+	<!-- End bodydef -->
+		<TABLE cellspacing="0" cellpadding="0">
+		<!-- Begin logo -->
+		<TR>
+		<TD class="TITLE_L"><EMPTY/></TD>
+		<TD class="TITLE_L"><EMPTY/></TD>
+		<TD class="TITLE_M"><EMPTY/></TD>
+		<TD class="TITLE_R"><EMPTY/></TD>
+		<TD class="TITLE_R"><EMPTY/></TD>
+		</TR>
+		<!-- End logo -->
+		<TR>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_UL"><EMPTY/></TD>
+		<TD class="BLOCK_H" colspan="2"><EMPTY/></TD>
+		<TD class="BLOCK_UR"><EMPTY/></TD>
+		</TR>
+		<TR vAlign="top">
+		<!-- Begin navbuttons -->
+		<TD width="205">
+			<A href="index.html"><IMG alt="" src="img/btn_home.gif" border="0"></A><br>
+			<A href="ZZTUltra.php"><IMG alt="" src="img/btn_play.gif" border="0"></A><br>
+			<A href="about.html"><IMG alt="" src="img/btn_about.gif" border="0"></A><br>
+			<A href="info.html"><IMG alt="" src="img/btn_info.gif" border="0"></A><br>
+			<A href="index.html#news"><IMG alt="" src="img/btn_news.gif" border="0"></A><br>
+			<A href="hallofmusic.html#hallofmusic"><IMG alt="" src="img/btn_music.gif" border="0"></A><br>
+			<A href="discussion.php"><IMG alt="" src="img/btn_forum.gif" border="0"></A><br>
+			<A href="discussion.php?topic=bugs"><IMG alt="" src="img/btn_bugs.gif" border="0"></A><br>
+			<A href="about.html#contact"><IMG alt="" src="img/btn_contact.gif" border="0"></A><br>
+			<A href="links.html"><IMG alt="" src="img/btn_links.gif" border="0"></A><br>
+		</TD>
+		<!-- End navbuttons -->
+		<TD class="BLOCK_V"><EMPTY/></TD>
+		<TD colspan="2">
+
+		<!-- Begin mainscroll -->
+		<TABLE cellspacing="0" cellpadding="0">
+		<TR>
+		<TD class="SCROLL_L"><EMPTY/></TD>
+		<TD class="SCROLL_M"><EMPTY/></TD>
+		<TD class="SCROLL_R"><EMPTY/></TD>
+		</TR>
+		<TR>
+		<TD class="SCROLL_V"><EMPTY/></TD>
+		<TD>
+		<!-- Begin main -->
+		<A name="hallofmusic"></A>
+		<table align="center" valign="middle"><tr><td valign="top"><img src="img/note_2.gif" align="left">&nbsp;&nbsp;</td><td><H1>Hall of Music</H1></td><td valign="middle">&nbsp;&nbsp;<img src="img/note_1.gif" align="right"></td></tr></table>
+		<HR color="white" size="3">
+
+		<form name="hom_interface" action="hom_interface.html" method="GET">
+		<table width="800" cellspacing="4"><tr>
+
+		<td valign="top" width="20%">
+		<P align="left">
+		<WTEXT>Filter</WTEXT>
+		</P><P align="left">
+		<select id="cb_filter" size="1">
+		  <!--
+		  <option value="[No Filter]">[No Filter]</option>
+		  -->
+		</select>
+		</P><P align="left">
+		<WTEXT>Library</WTEXT>
+		</P><P align="left">
+		<select id="lb_library" size="25">
+		  <!--
+		  <option value="[No Filter]">[No Filter]</option>
+		  -->
+		</select>
+		</P><P align="left">
+		<button type="button" id="b_upload">Enter Upload Mode</button>&nbsp;
+		<button type="button" id="b_update" hidden="true">Upload Song</button>
+		</P>
+		</td>
+
+		<td bgcolor="#7080FF">&nbsp;</td>
+		<td>&nbsp;</td>
+
+		<td valign="top">
+		<P align="left">
+		<WTEXT>Song Info</WTEXT>
+		<br>
+		<table id="txt_songinfo">
+		<tr align="left"><th>&nbsp;</th><td>&nbsp;</td>
+			<td><input type="text" id="tb_contrib" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Title:</LBTEXT></th><td><LBTEXT>Song Title</LBTEXT></td>
+			<td><input type="text" id="tb_title" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Covered By:</LBTEXT></th><td><LBTEXT>Name</LBTEXT></td>
+			<td><input type="text" id="tb_cover" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Original Author:</LBTEXT></th><td><LBTEXT>Name</LBTEXT></td>
+			<td><input type="text" id="tb_author" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Game:</LBTEXT></th><td><LBTEXT>Game Title</LBTEXT></td>
+			<td><input type="text" id="tb_game" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Year:</LBTEXT></th><td><LBTEXT>1991</LBTEXT></td>
+			<td><input type="text" id="tb_year" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Tags:</LBTEXT></th><td><LBTEXT>Tags</LBTEXT></td>
+			<td><input type="text" id="tb_tags" value="" spellcheck="false" hidden="true"></td></tr>
+		<tr align="left"><th><LBTEXT>Description:</LBTEXT></th><td><LBTEXT>Description</LBTEXT></td>
+			<td><input type="text" id="tb_desc" value="" spellcheck="false" hidden="true"></td></tr>
+		</table>
+
+		</P><P align="left">
+		<table>
+		<tr><td width="20%"><WTEXT>Song</WTEXT></td><td width="45%"><WTEXT>Prefix</WTEXT>&nbsp;
+		<input type="text" id="tb_prefix" value="Z01@U137V40K40:0.3:" spellcheck="false"></td>
+		<td width="25%"><WTEXT>Volume</WTEXT>&nbsp;
+		<input type="number" id="sb_mainvolume" value="50" min="0" max="50" step="1"></td></tr>
+		</table>
+
+		</P><P align="left">
+		<TEXTAREA rows='25' cols='80' id='ta_song' name='ta_song' spellcheck='false' wrap='soft' class='HOMTEXTAREA'></TEXTAREA>
+		</P><P align="left">
+		<div class="sbar-head">
+		<div class="sbar-cont" id="scr_cont">
+		<div class="sbar-bar" id="scr_timeline"></div>
+		</div>
+		</div>
+
+		<div class="msg_overlay" hidden="true" id="txt_msg_overlay">
+			<table width="400" height="200" id="txt_msg"><tr><td><h3>Message Text</h3></td></tr></table>
+		</div>
+
+		</P><P align="left">
+		<table id="txt_curtime"><tr>
+		<td><button type="button" id="b_play">Play</button>&nbsp;
+		<button type="button" id="b_loopplay">Looped Play</button>&nbsp;
+		<button type="button" id="b_pause">Pause</button>&nbsp;
+		<button type="button" id="b_stop">Stop</button></td>
+
+		<td width="15%">&nbsp;</td>
+		<td width="10%"><LBTEXT>Time</LBTEXT></td>
+		<td width="5%"><LBTEXT>/</LBTEXT></td><td width="10%"><LBTEXT>TimeFinal</LBTEXT></td></tr>
+		</table>
+
+		</P>
+		</td>
+
+		</tr></table>
+		</form>
+
+		<BR>
+		<HR color="white" size="3">
+		<H2>About the Hall of Music</H2>
+		<HR color="white" size="3">
+		<P>This tool was spun off from ZZT Ultra's sound system.  It acts as a web-based,
+		integrated environment for testing and showcasing <b>#PLAY string tunes</b> as used
+		in ZZT, Super ZZT, and ZZT Ultra.</P>
+		<P>The site keeps track of a library containing various compositions, covers,
+		#PLAY string rips, etc. that various individuals have produced and submitted.
+		These can originate from ZZT and Super ZZT world files, but it is entirely
+		possible to submit covers from different games or completely original work.</P>
+		<P>You can use the <b>Song</b> text box to experiment with your own tunes.
+		This box supports copying and pasting, so it is easy to port sequences
+		between the Hall of Music and text files.</P>
+		<ul>
+			<li><a href="zztoop.php#sound">A reference for the #PLAY statement syntax.</a></li>
+			<li><a href="zztoop.php#soundfx">A list of built-in ZZT sound effects.</a></li>
+		</ul>
+
+		<BR><BR>
+		<HR color="white" size="3">
+		<H2>Controlling and Modifying Playback</H2>
+		<HR color="white" size="3">
+		<P>The <b>Play</b>, <b>Pause</b>, and <b>Stop</b> buttons control playback of
+		the tune shown in the <b>Song</b> text box.  You can also have a song automatically
+		loop with the <b>Looped Play</b> button.</P>
+		<P>When the song is not playing, you can manipulate the song timeline by adjusting
+		<b>scrollbar</b> below the <b>Song</b> text box.</P>
+		<P>The <b>Volume</b> is a number between 0 (silence) and 50
+		(maximum).  You can attenuate all sound channels played back if desired.</P>
+		<P>You can freeform edit any song in the <b>Song</b> text box.  However,
+		writing back to the library requires using the upload interface
+		(see <a href="#uploading">Uploading Content</a>).</P>
+		<P>The <b>Prefix</b> text box serves a special function.  ZZT Ultra, by default,
+		plays all sound effects on channel zero (Z00) and all ZZT/Super ZZT
+		#PLAY statements on channel one (Z01).  The <b>Prefix</b> text is implicitly
+		prepended to all <b>Song</b> text.  The default <b>Prefix</b> plays non-channel-specific
+		content on channel one (Z01), resets the duration and octave (@), and applies
+		a reverb effect (K40:0.3:) as a convenient enhancement.</P>
+		<P>If you want to play back content without any modifications, remove the
+		text from the <b>Prefix</b> box.</P>
+		<P>Note that unlike the original #PLAY statements, song text on multiple
+		lines is not subject to an implicit duration and octave reset with each
+		new line.  To apply this reset operation, insert a "@" symbol as needed.</P>
+
+		<BR><BR>
+		<HR color="white" size="3">
+		<H2>Song Link URLs</H2>
+		<HR color="white" size="3">
+		<P>If you want to send a URL to someone such that a song of your own choice will
+		begin playing immediately, use the following GET variables.</P>
+		<ul>
+			<li><b>song</b>:  Name of song as listed in library</li>
+			<li><b>time</b>:  Starting position of the song, in seconds</li>
+			<li><b>loop</b>:  If 1, causes song to play in looped mode</li>
+		</ul>
+		<P>For example,
+		<a href="http://www.chriskallen.com/zzt/hallofmusic.html?song=Smash%20TV%20Circuit%203">This URL</a>
+		plays the Smash TV Circuit 3 song.</P>
+
+		<BR><BR>
+		<A name="uploading"></A>
+		<HR color="white" size="3">
+		<H2>Uploading Content</H2>
+		<HR color="white" size="3">
+		<P>If you wish to upload a tune to the Hall of Music, you click the
+		<b>Enter Upload Mode</b> button.
+		<!--
+		You will need to "log in" using a #PLAY string
+		captcha, in order to demonstrate that you understand the syntax (and are
+		not completely tone-deaf).  After login, you can submit new tunes to the
+		library.</p>-->
+		<P>When you enter the uploading interface, the song selected by default is
+		a special slot named <b>[New Song Title]</b>.  This is kept separate
+		from all the other songs already stored in the library, so that there is
+		always a separate workspace for "new" and "existing" songs.</p>
+		<P>It is possible to edit content you have already submitted.  You
+		can only edit songs in the library for which you were the original
+		contributor.</P>
+		<P>When you are finished with editing/pasting the song details, click the
+		<b>Upload Song</b> button.  Upon successful update, the library will
+		include your submission.</p>
+		<!--
+		<P>The Hall of Music makes one exception to re-editing of content--if
+		there is a <b>"?"</b> in a field, it indicates that such information is
+		unknown at the time of entry, and can be filled in by anyone.  This
+		rule is designed to deal with a trend that is discussed in the section
+		below.</P>-->
+
+		<BR><BR>
+		<HR color="white" size="3">
+		<H2>Credit Where Credit Is Due</H2>
+		<HR color="white" size="3">
+		<P>A compounding factor to identifying authorship of tunes is the tendency
+		of ZZT world designers to poach tunes from a wide variety of sources when
+		making chiptune covers.  This is often done without ever giving credit to
+		the original author anywhere within the world file or accompanying
+		documentation.  This adds a layer of uncertainty to the origin of many
+		tunes.</P>
+		<P>In the interest of being fair to all parties, each song has two credit
+		fields:  the <b>Covered By</b> field, indicating the composer of the #PLAY
+		statement-syntax tune, and the <b>Original Author</b> field, indicating the
+		original songwriter.  It is very possible that the cover artist is known,
+		but the original author is not well-known or cannot be discovered.
+		Uploaders are advised to always fill out the cover artist accurately, but
+		leave the original author blank (or with "?") until this information is
+		known.</P>
+		<P>Of course, if you are <b>definitely</b> the original author, go ahead
+		and fill out your name in both slots.</P>
+
+		<BR><BR>
+		<HR color="white" size="3">
+		<H2>Copyright Considerations</H2>
+		<HR color="white" size="3">
+		<P>As copyright goes, there isn't much to say.  The Hall of Music does not
+		try to make any special exceptions to the law itself.  All tunes are subject
+		to their original copyright, wherever they had come from originally.</P>
+		<P><i>However</i>, the relatively simple nature of ZZT-themed chiptunes makes it
+		unlikely that most people would ever care about tune reproduction in a
+		context like this.</P>
+		<P>If you believe that a tune should not be reproduced in the Hall of Music,
+		or otherwise has incorrect credit assigned, please contact the
+		<a href="about.html#contact">webmaster.</a></P>
+
+		<!-- End main -->
+		</TD>
+		<TD class="SCROLL_V2"><EMPTY/></TD>
+		</TR><TR>
+		<TD class="SCROLL_L"><EMPTY/></TD>
+		<TD class="SCROLL_M"><EMPTY/></TD>
+		<TD class="SCROLL_R"><EMPTY/></TD>
+		</TR>
+		</TABLE>
+		<!-- End mainscroll -->
+
+		</TD>
+		<TD class="BLOCK_V2"><EMPTY/></TD>
+		</TR>
+		<TR>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_H" colspan="2"><EMPTY/></TD>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		</TR>
+		</TABLE>
+
+		<!-- Begin copyright -->
+		<br><br>
+		<small>This page is Copyright &copy; 2018 Christopher Allen.</small>
+		<!-- End copyright -->
+
+<script language="JavaScript" type="text/javascript">
+"use strict";
+
+// Keyboard handler
+function kdFunc(event) {
+	var x = event.which || event.keyCode;
+
+	// Function keys from F1 to F12 are inhibited in all browsers.
+	// If you need them to work, remove the code from the following line.
+	if (x >= 112 && x <= 123)
+		event.preventDefault();
+
+	soundTest.keyPressed(x, event.shiftKey, event.ctrlKey);
+};
+
+document.onkeydown = kdFunc;
+
+// Temporary text message box on canvas
+function textToCanvas(s, x=0, y=0) {
+	ctx.fillStyle = "white";
+	ctx.fillRect(x, y, 350, 30);
+	ctx.font = "12px Arial";
+	ctx.fillStyle = "black";
+	ctx.fillText(s, x+10, y+10);
+}
+
+// Timer event setup
+var myTimer = window.setInterval(soundTest.mTick, 1000.0 / 30.0);
+</script>
+
+	</body>
+</html>

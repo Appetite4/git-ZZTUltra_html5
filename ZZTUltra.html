@@ -1,0 +1,328 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xml:lang="en">
+	<HEAD>
+		<!-- Begin header -->
+		<title>ZZT Ultra - ZZT in a Web Browser</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta name="keywords" content="zzt,game,epic,classic,PC,DOS,freeware,flash,html5">
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="http://www.chriskallen.com/zzt/logo_compact.gif" />
+		<LINK href="zzt.css" type="text/css" rel="stylesheet">
+		<!-- End header -->
+
+<!-- Stock Images -->
+<link rel="preload" href="chars_trans_8.gif" as="image">
+<link rel="preload" href="chars_trans_14.gif" as="image">
+<link rel="preload" href="chars_trans.gif" as="image">
+<link rel="preload" href="scroll_template2.gif" as="image">
+
+<!-- Imports -->
+<script type='text/javascript' src='IPoint.js'></script>
+<script type='text/javascript' src='ByteArray.js'></script>
+<script type='text/javascript' src='ZapRecord.js'></script>
+<script type='text/javascript' src='ZZTProp.js'></script>
+<script type='text/javascript' src='Lump.js'></script>
+<script type='text/javascript' src='utils.js'></script>
+<script type='text/javascript' src='ZZTBoard.js'></script>
+<script type='text/javascript' src='ElementInfo.js'></script>
+<script type='text/javascript' src='SE.js'></script>
+<script type='text/javascript' src='ASCII_Characters.js'></script>
+<script type='text/javascript' src='CellGrid.js'></script>
+<script type='text/javascript' src='editor.js'></script>
+<script type='text/javascript' src='zzt.js'></script>
+<script type='text/javascript' src='ZZTLoader.js'></script>
+<script type='text/javascript' src='parse.js'></script>
+<script type='text/javascript' src='input.js'></script>
+<script type='text/javascript' src='oop.js'></script>
+<script type='text/javascript' src='interp.js'></script>
+<script type='text/javascript' src='Sounds.js'></script>
+<script type='text/javascript' src='FxEnvelope.js'></script>
+
+<script language="JavaScript" type="text/javascript">
+"use strict";
+<!--
+// Detect Client Browser type
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+// -->
+</script>
+
+	</HEAD>
+	<!-- Begin bodydef -->
+	<body text="#FFFFFF" vLink="#CFCFA0" aLink="#CFCFA0" link="#FFFFC0" bgColor="#000030">
+	<!-- End bodydef -->
+
+<!-- Image preloading section -->
+<div class="hidden">
+
+<script type="text/javascript">
+"use strict";
+var stockCharSets = new Array();
+function preload(imgs) {
+	for (var i = 0; i < imgs.length; i++) {
+		//stockCharSets[i] = document.getElementById(imgs[i]);
+		stockCharSets[i] = new Image();
+		stockCharSets[i].src = imgs[i];
+		stockCharSets[i].crossOrigin = "Anonymous";
+	}
+}
+preload([
+	"chars_trans_8.gif",
+	"chars_trans_14.gif",
+	"chars_trans.gif",
+	"scroll_template2.gif",
+]);
+</script>
+</div>
+
+		<TABLE cellspacing="0" cellpadding="0">
+		<!-- Begin logo -->
+		<TR>
+		<TD class="TITLE_L"><EMPTY/></TD>
+		<TD class="TITLE_L"><EMPTY/></TD>
+		<TD class="TITLE_M"><EMPTY/></TD>
+		<TD class="TITLE_R"><EMPTY/></TD>
+		<TD class="TITLE_R"><EMPTY/></TD>
+		</TR>
+		<!-- End logo -->
+		<TR>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_UL"><EMPTY/></TD>
+		<TD class="BLOCK_H" colspan="2"><EMPTY/></TD>
+		<TD class="BLOCK_UR"><EMPTY/></TD>
+		</TR>
+		<TR vAlign="top">
+		<!-- Begin navbuttons -->
+		<TD width="205">
+			<A href="index.html"><IMG alt="" src="img/btn_home.gif" border="0"></A><br>
+			<A href="ZZTUltra.php"><IMG alt="" src="img/btn_play.gif" border="0"></A><br>
+			<A href="about.html"><IMG alt="" src="img/btn_about.gif" border="0"></A><br>
+			<A href="info.html"><IMG alt="" src="img/btn_info.gif" border="0"></A><br>
+			<A href="index.html#news"><IMG alt="" src="img/btn_news.gif" border="0"></A><br>
+			<A href="hallofmusic.html#hallofmusic"><IMG alt="" src="img/btn_music.gif" border="0"></A><br>
+			<A href="discussion.php"><IMG alt="" src="img/btn_forum.gif" border="0"></A><br>
+			<A href="discussion.php?topic=bugs"><IMG alt="" src="img/btn_bugs.gif" border="0"></A><br>
+			<A href="about.html#contact"><IMG alt="" src="img/btn_contact.gif" border="0"></A><br>
+			<A href="links.html"><IMG alt="" src="img/btn_links.gif" border="0"></A><br>
+		</TD>
+		<!-- End navbuttons -->
+		<TD class="BLOCK_V"><EMPTY/></TD>
+		<TD colspan="2">
+
+		<!-- Begin mainscroll -->
+		<TABLE cellspacing="0" cellpadding="0"><TR>
+		<TD class="SCROLL_L"><EMPTY/></TD>
+		<TD class="SCROLL_M"><EMPTY/></TD>
+		<TD class="SCROLL_R"><EMPTY/></TD>
+		</TR><TR>
+		<TD class="SCROLL_V"><EMPTY/></TD>
+		<TD>
+		<!-- Begin main -->
+
+<script language="JavaScript" type="text/javascript">
+"use strict";
+	var myQueryString = document.location.search;
+	if (myQueryString[0] = '?')
+		myQueryString = myQueryString.substr(1, myQueryString.length - 1);
+</script>
+
+<div>
+<canvas id="myCanvas" width="640" height="400" style="border:0px solid #000000;float:left;margin-right:20px;margin-bottom:15px" onmousedown="mdFunc(event)" onmouseup="muFunc(event)" onmousemove="mmFunc(event)" onwheel="mwFunc(event)">
+Your browser does not support the &lt;canvas&gt; element.
+</canvas>
+</div>
+
+<script language="JavaScript" type="text/javascript">
+"use strict";
+// Establish initial DOM canvas element and device context
+var myCanvas = document.getElementById("myCanvas");
+var ctx = myCanvas.getContext("2d");
+
+// Establish temporary rendering canvas
+var tempCanvas = document.createElement("canvas");
+tempCanvas.width = 640;
+tempCanvas.height = 400;
+var tempCtx = tempCanvas.getContext("2d");
+
+// Establish cell rendering canvas
+var cellCanvas = document.createElement("canvas");
+cellCanvas.width = 8;
+cellCanvas.height = 16;
+var cellCtx = cellCanvas.getContext("2d");
+
+// Initialize high-level objects; more formal initialize occurs later
+zzt.partialInit(myCanvas, ctx, tempCanvas, tempCtx, cellCanvas, cellCtx, stockCharSets);
+
+// Canvas-oriented mouse position, relative to UL corner
+function getCanvasXY(e) {
+	var rect = myCanvas.getBoundingClientRect();
+	var coords = [e.clientX - rect.left, e.clientY - rect.top];
+
+	return coords;
+};
+
+// Mouse handlers for canvas
+function mdFunc(event) {
+	var xy = getCanvasXY(event);
+	input.mousePressed(event, xy[0], xy[1]);
+};
+
+function muFunc(event) {
+	var xy = getCanvasXY(event);
+	input.mouseReleased(event, xy[0], xy[1]);
+};
+
+function mmFunc(event) {
+	var xy = getCanvasXY(event);
+	input.mouseDrag(event, xy[0], xy[1]);
+};
+
+function mwFunc(event) {
+	input.mouseWheel(event.deltaY);
+};
+
+// Keyboard handlers for document
+function kdFunc(event) {
+	var x = event.which || event.keyCode;
+
+	// Function keys from F1 to F12 are inhibited in all browsers.
+	// If you need them to work, remove the code from the following line.
+	if (x >= 112 && x <= 123)
+		event.preventDefault();
+
+	if (zzt.guiPropText)
+	{
+		// Inhibit our own processing of codes if text editor is open.
+		if (!zzt.guiPropText.hidden && x != 27)
+			return;
+	}
+
+	// Probably don't want page to scroll with directional/Page/Home/End keys.
+	// If you need them to work, remove the code from the following line.
+	if (x >= 33 && x <= 40)
+		event.preventDefault();
+
+	// Firefox does not treat ESC, ENTER, TAB, or BACKSPACE as ASCII.
+	// These may or may not be mapped to browser hotkeys.
+	// If you want the hotkey to still work, remove the codes from
+	// the event.preventDefault line.
+	if (x == 27 || x == 13 || x == 9 || x == 8)
+	{
+		event.preventDefault();
+		input.keyPressFiltered(event, x);
+		return;
+	}
+
+	// Ctrl+O, Ctrl+T, Ctrl+S, and Ctrl+R special combos have default prevented.
+	// If you want them to work, remove the codes from the event.preventDefault line.
+	if (event.ctrlKey)
+	{
+		if (x == 79 || x == 82 || x == 83 || x == 84)
+			event.preventDefault();
+	}
+
+	// Firefox:  Slash and single quote hotkeys disabled.
+	// All browsers:  SPACE down-scroll hotkey disabled.
+	// If you want searches to work, remove the codes from the following line.
+	if (x == 191 || x == 222 || x == 32)
+	{
+		if (!event.shiftKey)
+		{
+			event.preventDefault();
+			input.keyPressFiltered(event, input.keyCode2CharCode[x]);
+			return;
+		}
+	}
+
+	input.keyDownFiltered(event, x);
+
+	// Some special notes about keyboard combinations within browsers...
+
+	// FF:      F7 shows caret browsing dialog even if default prevented.
+	// FF:      Shift+F10 shows context menu even if default prevented.
+	// FF:      Ctrl+T opens new tab even if default prevented.
+	// FF:      Ctrl+Tab changes browser tab even if default prevented.
+	// FF:      Ctrl+Enter does not generate an event.
+	// Chrome:  There are many fancy Ctrl and Shift+Ctrl combinations
+	//          used for debugging; these are not prevented.
+};
+
+function kuFunc(event) {
+	var x = event.which || event.keyCode;
+	input.keyUpFiltered(event, x);
+};
+
+function kpFunc(event) {
+	var x = event.charCode;
+	input.keyPressFiltered(event, x);
+};
+
+document.onkeydown = kdFunc;
+document.onkeyup = kuFunc;
+document.onkeypress = kpFunc;
+
+// Temporary text message box on canvas
+function textToCanvas(s, x=0, y=0) {
+	ctx.fillStyle = "white";
+	ctx.fillRect(x, y, 350, 30);
+	ctx.font = "12px Arial";
+	ctx.fillStyle = "black";
+	ctx.fillText(s, x+10, y+10);
+}
+
+// Timer event setup
+var myTimer = window.setInterval(zzt.mTick, 1000.0 / 30.0);
+</script>
+
+<br>
+<P>
+<form name="duh" action="html5test.html" method="GET">
+
+<!-- This TEXTAREA control is used for editing JSON and ZZT-OOP.
+     Might want to configure the settings to better fit the page later. -->
+<TEXTAREA rows='25' cols='100' id='codeEntry' name='codeEntry' spellcheck='false' wrap='soft' hidden='true' class='ZZUTEXTAREA'>stuff</TEXTAREA>
+
+<!-- This is the hidden file input control used for loading local files.
+     The file API for JS makes us declare these controls as a roundabout
+	 means of opening up a file dialog. -->
+<input type="file" id="fileInput" accept=".zzt" style="display:none">
+
+</form>
+
+		<!-- End main -->
+		</TD>
+		<TD class="SCROLL_V2"><EMPTY/></TD></TR><TR>
+		<TD class="SCROLL_L"><EMPTY/></TD>
+		<TD class="SCROLL_M"><EMPTY/></TD>
+		<TD class="SCROLL_R"><EMPTY/></TD>
+		</TR>
+		</TABLE>
+		<!-- End mainscroll -->
+
+		</TD>
+		<TD class="BLOCK_V2"><EMPTY/></TD>
+		</TR>
+		<TR>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		<TD class="BLOCK_H" colspan="2"><EMPTY/></TD>
+		<TD class="BLOCK_H"><EMPTY/></TD>
+		</TR>
+		</TABLE>
+
+		<br>
+		<TABLE border="0" cellpadding="8"><TR>
+		<TD><B>DISPLAY SIZES:</B></TD>
+		<TD><A href="ZZTUltra.php?WIDTH=640&HEIGHT=400">Small:  640x400</A></TD>
+		<TD><A href="ZZTUltra.php?WIDTH=800&HEIGHT=500">Medium:  800x500</A></TD>
+		<TD><A href="ZZTUltra.php?WIDTH=960&HEIGHT=600">Large:  960x600</A></TD>
+		<TD><A href="ZZTUltra.php?WIDTH=1280&HEIGHT=800">Huge:  1280x800</A></TD>
+		</TR></TABLE>
+
+		<!-- Begin copyright -->
+		<br><br>
+		<small>This page is Copyright &copy; 2016-2023 Christopher Allen.</small>
+		<!-- End copyright -->
+	</body>
+</html>
+ 

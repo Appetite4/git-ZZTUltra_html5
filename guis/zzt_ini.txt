@@ -1,0 +1,41 @@
+﻿{
+"'DEP_INDEXPATH" : "../www/content",
+"'DEP_RECURSIVELEVEL" : 0,
+
+"DEP_INDEX" : [
+	"../www/content/1_zzt/BestZZT1.zzt",
+	"../www/content/1_zzt/BestZZT2.zzt",
+	"../www/content/1_zzt/Caves.zzt",
+	"../www/content/1_zzt/City.zzt",
+	"../www/content/1_zzt/Demo.zzt",
+	"../www/content/1_zzt/Dungeons.zzt",
+	"../www/content/1_zzt/Town.zzt",
+	"../www/content/1_zzt/Tour.zzt",
+	"../www/content/2_szt/FOREST.SZT",
+	"../www/content/2_szt/MONSTER.SZT",
+	"../www/content/2_szt/PROVING.SZT",
+	"../www/content/3_wad/CHARDEMO.WAD",
+	"../www/content/3_wad/DEMO.WAD",
+	"../www/content/3_wad/SMASHZZT.WAD",
+	"../www/content/4_zip/winter.zip",
+	"../www/content/4_zip/codered.zip"
+],
+
+"'DEP_INDEXRESOURCE" : "eval_dir.php?path=content/*.zzt&level=0",
+
+"'PWADS" : {
+	"BQUE.ZZT" : "../www/content/pwads/BQDELTA.WAD",
+	"BQUEST.ZZT" : "../www/content/pwads/BQDELTA.WAD",
+	"BQUEST-B.ZZT" : "../www/content/pwads/BQDELTA.WAD",
+	"BQUEST-C.ZZT" : "../www/content/pwads/BQDELTA.WAD",
+	"MACGYVER.ZZT" : "../www/content/pwads/PBF0.WAD",
+	"NYAN.ZZT" : "../www/content/pwads/PBF0.WAD",
+	"SMILEY.ZZT" : "../www/content/pwads/PBF0.WAD",
+	"VOYAGE.SZT" : "../www/content/pwads/PBF0_SZT.WAD"
+},
+
+"DEP_AUTORUNZIP" : 0,
+"'DEP_STARTUPFILE" : "../www/content/town.zzt",
+"DEP_STARTUPGUI" : "DEBUGMENU"
+
+}

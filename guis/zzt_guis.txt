@@ -1,0 +1,2138 @@
+{
+"ZZTTITLE":{
+
+"Use40Column":0,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiLocX":61,
+"GuiLocY":1,
+"GuiWidth":20,
+"GuiHeight":25,
+"Viewport":[1,1,60,25],
+"Text":"
+     - - - - -      
+        ZZT         
+     - - - - -      
+                    
+                    
+  Pick a command:   
+                    
+   W  World:        
+                    
+                    
+                    
+   P  Play          
+   R  Restore game  
+   Q  Quit          
+                    
+                    
+   A  About ZZT!    
+   H  High Scores   
+   E  Board Editor  
+                    
+                    
+   S  Game speed:   
+                    
+      F....:....S   
+                    
+",
+"Color":[
+31,20,
+31,2, 112,15, 31,3,
+31,20,
+31,20,
+31,20,
+27,20,
+31,20,
+31,2, 48,3, 31,1, 30,14,
+31,20,
+31,20,
+31,20,
+31,2, 112,3, 31,1, 31,14,
+31,2, 48,3, 31,1, 30,14,
+31,2, 112,3, 31,1, 30,14,
+31,20,
+31,20,
+31,2, 48,3, 31,1, 31,14,
+31,2, 112,3, 31,1, 30,14,
+31,2, 48,3, 31,1, 30,14,
+31,20,
+31,20,
+31,2, 112,3, 31,1, 30,14,
+31,20,
+30,20,
+31,20
+],
+"KeyInput":{
+"P":"EVENT_PLAYGAME",
+"R":"EVENT_RESTOREGAME",
+"Q":"EVENT_QUITZZT",
+"27":"EVENT_QUITZZT",
+"W":"EVENT_WORLDMENU",
+"A":"EVENT_ABOUTZZT",
+"H":"EVENT_HISCORES",
+"E":"EVENT_EDITOR",
+"S":"EVENT_SPEED"
+},
+"MouseInput":{
+"EVENT_WORLDMENU":[1,8,20,1],
+"EVENT_PLAYGAME":[1,12,20,1],
+"EVENT_RESTOREGAME":[1,13,20,1],
+"EVENT_QUITZZT":[1,14,20,1],
+"EVENT_ABOUTZZT":[1,17,20,1],
+"EVENT_HISCORES":[1,18,20,1],
+"EVENT_EDITOR":[1,19,20,1],
+"EVENT_SPEED":[1,22,20,1]
+},
+"Label":{
+"LOADINGANIM":[10,7,5,31],
+"LOADINGLOC":[3,7,7,31],
+"WORLDNAME":[10,9,11,31],
+"SPEEDLABEL":[7,22,11,31],
+"SPEEDCURSOR":[8,23,9,31],
+"FILEMESSAGE":[1,4,20,31],
+"FILEENTRY":[3,6,12,15],
+"CONFMESSAGE":[1,6,20,31],
+"TOAST1":[-59,25,60,15]
+}
+
+},
+
+"NAMEREG":{
+"GuiLocX":10,
+"GuiLocY":10,
+"GuiWidth":40,
+"GuiHeight":5,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"Use40Column":0,
+"Viewport":[1,26,2,2],
+"Label":{
+"NAMEENTRY":[8,4,30,78]
+},
+"KeyInput":{
+"27":"EVENT_DOQUITGAME"
+},
+"Text":"
+\u00C6\u00D1\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00D1\u00B5
+ \u00B3       Please enter your name:      \u00B3 
+ \u00C6\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00B5 
+ \u00B3                                    \u00B3 
+\u00C6\u00CF\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CF\u00B5
+",
+"Color":[79,40,79,40,79,40,79,40,79,40]
+},
+
+"NAMEREGSZT":{
+"GuiLocX":1,
+"GuiLocY":10,
+"GuiWidth":40,
+"GuiHeight":5,
+"OverallSizeX":40,
+"OverallSizeY":25,
+"Use40Column":1,
+"Viewport":[1,26,2,2],
+"Label":{
+"NAMEENTRY":[8,4,30,78]
+},
+"KeyInput":{
+"27":"EVENT_DOQUITGAME"
+},
+"Text":"
+\u00C6\u00D1\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00D1\u00B5
+ \u00B3       Please enter your name:      \u00B3 
+ \u00C6\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00B5 
+ \u00B3                                    \u00B3 
+\u00C6\u00CF\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CD\u00CF\u00B5
+",
+"Color":[79,40,79,40,79,40,79,40,79,40]
+},
+
+"EDITGUI":{
+
+"Use40Column":0,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiLocX":61,
+"GuiLocY":1,
+"GuiWidth":20,
+"GuiHeight":25,
+"Viewport":[1,1,60,25],
+"Text":"
+     - - - - -      
+ ZZT GUI EDIT MENU  
+     - - - - -      
+                    
+                    
+                    
+  L  Load GUI       
+  S  Save GUI       
+                    
+  P  Properties     
+                    
+  T  Edit Text      
+                    
+  D  Draw           
+                    
+  Q  Quit           
+                    
+  F6    FG Color    
+  F7    BG Color    
+                    
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF          
+                    
+  F8    Blink:      
+                    
+",
+"Color":[
+31,20,
+112,20,
+31,20,
+31,20,
+31,20,
+31,20,
+31,1, 48,3, 31,16,
+31,1, 112,3, 31,16,
+31,20,
+31,1, 48,3, 31,16,
+31,20,
+31,1, 112,3, 31,16,
+31,20,
+31,1, 48,3, 31,16,
+31,20,
+31,1, 112,3, 31,16,
+31,20,
+31,1, 48,4, 31,15,
+31,1, 112,4, 31,15,
+31,20,
+31,20,
+31,2, 8,1, 25,1, 42,1, 59,1, 76,1, 93,1, 110,1, 127,1, 31,10,
+31,20,
+31,1, 48,4, 31,15,
+31,20
+],
+"KeyInput":{
+"L":"EVENT_LOADGUI",
+"S":"EVENT_SAVEGUI",
+"P":"EVENT_GUIPROPERTIES",
+"T":"EVENT_EDITTEXT",
+"D":"EVENT_TESTDRAWGUI",
+"Q":"EVENT_QUITGUIEDITOR",
+"27":"EVENT_QUITGUIEDITOR",
+"C":"EVENT_FGCOLOR",
+"117":"EVENT_FGCOLOR",
+"118":"EVENT_BGCOLOR",
+"119":"EVENT_TOGGLEBLINK"
+},
+"MouseInput":{
+"EVENT_LOADGUI":[1,7,20,1],
+"EVENT_SAVEGUI":[1,8,20,1],
+"EVENT_GUIPROPERTIES":[1,10,20,1],
+"EVENT_EDITTEXT":[1,12,20,1],
+"EVENT_TESTDRAWGUI":[1,14,20,1],
+"EVENT_QUITGUIEDITOR":[1,16,20,1],
+"EVENT_FGCOLOR":[1,18,20,1],
+"EVENT_BGCOLOR":[1,19,20,1],
+"EVENT_TOGGLEBLINK":[1,24,20,1]
+},
+"Label":{
+"MODFLAG":[1,8,1,31],
+"COLORCURSOR1":[1,21,10,31],
+"COLORCURSOR2":[1,23,10,30],
+"BLINKLABEL":[15,24,5,30],
+"FILEMESSAGE":[1,5,20,31],
+"FILEENTRY":[3,5,12,15],
+"CONFMESSAGE":[1,5,20,31]
+}
+
+},
+
+"EDITGUITEXT":{
+
+"Use40Column":0,
+"OverallSizeX":1,
+"OverallSizeY":1,
+"GuiLocX":81,
+"GuiLocY":1,
+"GuiWidth":20,
+"GuiHeight":25,
+"Viewport":[1,1,80,25],
+"Text":"
+ 
+",
+"Color":[
+31,1
+],
+"KeyInput":{
+"8":"EVENT_BACKSPACE",
+"107":"EVENT_ALTCHAR",
+"109":"EVENT_ALTCHAR2",
+"34":"EVENT_ALTCHAR",
+"33":"EVENT_ALTCHAR2",
+"9":"EVENT_TOGGLEDRAW",
+" ":"EVENT_PLOTLAST",
+"13":"EVENT_PICKUPCHAR",
+"Shift+13":"EVENT_PICKUPALL",
+"Ctrl+K":"EVENT_COLORDIALOG",
+"Ctrl+C":"EVENT_COPY",
+"Ctrl+V":"EVENT_PASTE",
+"37":"EVENT_LEFT",
+"38":"EVENT_UP",
+"39":"EVENT_RIGHT",
+"40":"EVENT_DOWN",
+"Shift+37":"EVENT_SELLEFT",
+"Shift+38":"EVENT_SELUP",
+"Shift+39":"EVENT_SELRIGHT",
+"Shift+40":"EVENT_SELDOWN",
+"27":"EVENT_RETURNTOEDITGUI",
+"114":"EVENT_SETLABEL",
+"115":"EVENT_SETMOUSEINPUT",
+"117":"EVENT_FGCOLOR",
+"118":"EVENT_BGCOLOR",
+"119":"EVENT_TOGGLEBLINK",
+"16":"EVENT_NOP",
+"17":"EVENT_NOP"
+},
+"MouseInput":{
+"EVENT_PLOTLAST":[1,2,20,1],
+"EVENT_ALTCHAR":[1,3,8,1],
+"EVENT_ALTCHAR2":[11,3,8,1],
+"EVENT_PICKUPCHAR":[1,4,20,1],
+"EVENT_RETURNTOEDITGUI":[1,6,20,1]
+},
+"Label":{
+"TOGGLEDRAW":[-19,2,20,15],
+"PLOTLAST":[-19,3,20,15],
+"ALTCHAR":[-19,4,20,15],
+"PICKUPCHAR":[-19,5,20,15],
+"PICKUPALL":[-19,6,20,15],
+"COLORDIALOG":[-19,8,20,15],
+"SETLABEL":[-19,10,20,15],
+"SETMOUSEINPUT":[-19,11,20,15],
+"RANGE":[-19,13,20,15],
+"COPY":[-19,14,20,15],
+"PASTE":[-19,15,20,15],
+"RETURNTOEDITGUI":[-19,18,20,15],
+"COLORCURSOR1":[-19,21,10,31],
+"COLORCURSOR2":[-19,23,10,30],
+"BLINKLABEL":[2,24,5,30]
+}
+
+},
+
+"ED_CLASSIC":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+    - - - - - -     
+  ED STYLE:  ZZT    
+    - - - - - -     
+                    
+  L  Load  H  Help  
+  S  Save  Q  Quit  
+                    
+  B   Switch boards 
+  I   Board Info    
+                    
+   F1    Item       
+   F2    Creature   
+   F3    Terrain    
+   F4    Enter text 
+                    
+  Space  Plot       
+   Tab   Draw mode  
+                    
+  P  Pattern        
+  C  Color:         
+                    
+                    
+  \u00DB\u00B2\u00B1 \u00CE   \u00DB\u00DB\u00DB\u00DB\u00DB\u00DB\u00DB   
+                    
+  Mode: Drawing off 
+",
+"Color":[31,20,31,1,112,18,31,1,31,20,31,20,31,1,112,3,31,6,112,3,31,1,30,4,31,2,31,1,48,3,31,6,48,3,31,7,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,1,112,3,31,16,31,1,48,3,31,7,30,9,31,20,31,20,31,2,15,6,31,2,9,1,10,1,11,1,12,1,13,1,14,1,15,1,31,3,31,20,31,8,30,12],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"112":"ED_ITEM",
+"113":"ED_CREATURE",
+"114":"ED_TERRAIN",
+"115":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"27":"ED_QUIT",
+"B":"ED_BOARD",
+"L":"ED_LOAD",
+"N":"ED_NEW",
+" ":"ED_PLACE",
+"T":"ED_TRANSFER",
+"Shift+C":"ED_COLOR2",
+"H":"ED_HELP",
+"F":"ED_FILL",
+"S":"ED_SAVE",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"E":"ED_SWAPED",
+"Z":"ED_CLEAR",
+"Q":"ED_QUIT",
+"I":"ED_INFO",
+"C":"ED_COLOR",
+"X":"ED_FILL"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_LOAD":[1,5,10,1],
+"ED_SAVE":[1,6,10,1],
+"ED_HELP":[11,5,10,1],
+"ED_QUIT":[11,6,10,1],
+"ED_BOARD":[1,8,20,1],
+"ED_INFO":[1,9,20,1],
+"ED_ITEM":[1,11,20,1],
+"ED_CREATURE":[1,12,20,1],
+"ED_TERRAIN":[1,13,20,1],
+"ED_TEXT":[1,14,20,1],
+"ED_PLACE":[1,16,20,1],
+"ED_DRAWING":[1,17,20,1],
+"ED_PATTERN":[1,19,20,1],
+"ED_COLOR":[1,20,12,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"ENTERTEXT":[9,25,11,30],
+"COLORCURSOR2":[11,24,7,31],
+"FILEENTRY":[3,3,12,15],
+"COLORNAME":[13,20,8,30],
+"PATTERNCURSOR":[3,22,6,31],
+"BBUFFER":[8,23,1,15],
+"COLORCURSOR1":[11,22,7,31],
+"DRAWING":[9,25,11,30],
+"MODFLAG":[1,6,1,31],
+"CONFMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"FILEMESSAGE":[1,2,20,31]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_SUPERZZT":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+    - - - - - -     
+  ED STYLE:  SUPER  
+    - - - - - -     
+                    
+  L  Load  H  Help  
+  S  Save  Q  Quit  
+                    
+  B   Switch boards 
+  I   Board Info    
+                    
+   F1    Item       
+   F2    Creature   
+   F3    Terrain    
+   F6    Enter text 
+                    
+  Space  Plot       
+   Tab   Draw mode  
+                    
+  P  Pattern        
+  C  Color:         
+                    
+                    
+  \u00DB\u00B2\u00B1 \u00CE  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF   
+                    
+  Mode: Drawing off 
+",
+"Color":[31,20,31,1,112,18,31,1,31,20,31,20,31,1,112,3,31,6,112,3,31,1,30,4,31,2,31,1,48,3,31,6,48,3,31,7,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,1,112,3,31,16,31,1,48,3,31,7,30,9,31,20,31,20,31,2,15,6,31,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,3,31,20,31,8,30,12],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"112":"ED_ITEM",
+"113":"ED_CREATURE",
+"114":"ED_TERRAIN",
+"115":"ED_UGLIES",
+"116":"ED_TERRAIN2",
+"117":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"Shift+37":"ED_LEFTSUPER",
+"Shift+38":"ED_UPSUPER",
+"Shift+39":"ED_RIGHTSUPER",
+"Shift+40":"ED_DOWNSUPER",
+"B":"ED_BOARD",
+"Shift+C":"ED_COLOR2",
+"T":"ED_TRANSFER",
+"Q":"ED_QUIT",
+"S":"ED_SAVE",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"N":"ED_NEW",
+"L":"ED_LOAD",
+" ":"ED_PLACE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"E":"ED_SWAPED",
+"Z":"ED_CLEAR",
+"F":"ED_FILL",
+"C":"ED_COLOR",
+"X":"ED_FILL"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_LOAD":[1,5,10,1],
+"ED_SAVE":[1,6,10,1],
+"ED_HELP":[11,5,10,1],
+"ED_QUIT":[11,6,10,1],
+"ED_BOARD":[1,8,20,1],
+"ED_INFO":[1,9,20,1],
+"ED_ITEM":[1,11,20,1],
+"ED_CREATURE":[1,12,20,1],
+"ED_TERRAIN":[1,13,20,1],
+"ED_TEXT":[1,14,20,1],
+"ED_PLACE":[1,16,20,1],
+"ED_DRAWING":[1,17,20,1],
+"ED_PATTERN":[1,19,20,1],
+"ED_COLOR":[1,20,12,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"FILEMESSAGE":[1,2,20,31],
+"COLORCURSOR2":[10,24,8,30],
+"COLORNAME":[13,20,8,30],
+"TOAST1":[-59,25,60,15],
+"COORDS":[2,24,10,30],
+"MODFLAG":[1,6,1,31],
+"COLORCURSOR1":[10,22,8,31],
+"FILEENTRY":[3,3,12,15],
+"CONFMESSAGE":[1,2,20,31],
+"DRAWING":[9,25,11,30],
+"PATTERNCURSOR":[3,22,6,31],
+"BBUFFER":[8,23,1,15],
+"ENTERTEXT":[9,25,11,30]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_KEVEDIT":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+                    
+  ED STYLE: KevEdit 
+                    
+  L  Load  H  Help  
+  S  Save  Q  Quit  
+                    
+  I  Info  W  World 
+  B  Switch Boards  
+                    
+   F1    Item       
+   F2    Creature   
+   F3    Terrain    
+   F4    Enter text 
+                    
+  Space  Plot       
+   Tab   Draw       
+                    
+  P  Pattern        
+  C  Color          
+  V  Blink          
+                    
+ \u00DB\u00B2\u00B1\u00B0 \u00CE\u00B3          a 
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF D 
+                    
+",
+"Color":[28,20,31,1,112,19,31,20,31,1,96,3,31,6,96,3,31,7,31,1,64,3,31,6,64,3,31,7,31,20,31,1,96,3,31,6,96,3,31,7,31,1,64,3,31,16,31,20,31,1,96,7,31,12,31,1,64,7,31,12,31,1,96,7,31,12,31,1,64,7,31,12,31,20,31,1,96,7,31,12,31,1,64,7,31,12,31,20,31,1,96,3,31,16,31,1,64,3,31,16,31,1,96,3,31,16,31,20,31,1,15,6,1,11,24,1,31,1,31,20,31,1,1,2,2,1,3,1,4,1,5,1,6,1,7,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,1,30,1,31,1,31,20],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"8":"ED_DELETE",
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"33":"ED_BOARDPREV",
+"34":"ED_BOARDNEXT",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"45":"ED_PICKUPNOEDIT",
+"48":"ED_BUFEMPTY",
+"49":"ED_BUF1",
+"50":"ED_BUF2",
+"51":"ED_BUF3",
+"52":"ED_BUF4",
+"53":"ED_BUF5",
+"55":"ED_BUF7",
+"56":"ED_BUF8",
+"57":"ED_BUF9",
+"188":"ED_BUFDEC",
+"191":"ED_BUFLOCK",
+"190":"ED_BUFINC",
+"54":"ED_BUF6",
+"46":"ED_DELETE",
+"112":"ED_ITEM",
+"114":"ED_TERRAIN",
+"115":"ED_TEXT",
+"113":"ED_CREATURE",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"B":"ED_BOARD",
+"A":"ED_ACQUIRE",
+"Shift+38":"ED_SELUP",
+"Ctrl+S":"ED_STATELEM",
+"Ctrl+C":"ED_COPY",
+"Shift+X":"ED_SELSIMILAR",
+"Ctrl+T":"ED_TILEINFO",
+"Ctrl+V":"ED_PASTE",
+"Z":"ED_CLEAR",
+"W":"ED_WORLD",
+"V":"ED_BLINK",
+"T":"ED_TRANSFER",
+"Shift+C":"ED_COLOR2",
+"S":"ED_SAVE",
+"X":"ED_FLOODSEL",
+"R":"ED_RUN",
+"Ctrl+O":"ED_HIDDENOBJ",
+"Q":"ED_QUIT",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"Shift+40":"ED_SELDOWN",
+"O":"ED_OBJEDIT",
+"Ctrl+X":"ED_CUT",
+"Shift+39":"ED_SELRIGHT",
+"L":"ED_LOAD",
+"N":"ED_NEW",
+"K":"ED_KOLOR",
+"Shift+K":"ED_BIT7TOGGLE",
+"Ctrl+K":"ED_KOLOR",
+"Ctrl+A":"ED_TEXTSPECCHAR",
+" ":"ED_PLACE",
+"Shift+37":"ED_SELLEFT",
+"Shift+9":"ED_DRAWINGCYCLE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"G":"ED_GRADIENT",
+"F":"ED_FILL",
+"Shift+49":"ED_HELPEDITOR",
+"E":"ED_SWAPED",
+"D":"ED_DEFAULTCOLOR",
+"Shift+F":"ED_RANDOMFILL",
+"C":"ED_COLOR"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_LOAD":[1,4,10,1],
+"ED_SAVE":[1,5,10,1],
+"ED_HELP":[11,4,10,1],
+"ED_QUIT":[11,5,10,1],
+"ED_INFO":[1,7,10,1],
+"ED_WORLD":[11,7,10,1],
+"ED_BOARD":[1,8,20,1],
+"ED_ITEM":[1,10,20,1],
+"ED_CREATURE":[1,11,20,1],
+"ED_TERRAIN":[1,12,20,1],
+"ED_TEXT":[1,13,9,1],
+"ED_PLACE":[1,15,20,1],
+"ED_DRAWING":[1,16,9,1],
+"ED_PATTERN":[1,18,20,1],
+"ED_COLOR":[1,19,20,1],
+"ED_BLINK":[1,20,5,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"ENTERTEXT":[10,13,10,158],
+"COLORCURSOR2":[10,25,8,31],
+"ACQUIREMODE":[19,22,1,30],
+"DEFCOLORMODE":[19,24,1,30],
+"BUFLOCK":[8,22,1,12],
+"BBUFFER":[9,22,10,15],
+"COORDS":[2,1,10,28],
+"BLINK":[6,20,9,30],
+"COLORCURSOR1":[2,23,16,31],
+"CONFMESSAGE":[1,2,20,31],
+"DRAW":[10,16,10,30],
+"STATS":[11,1,10,28],
+"MODFLAG":[1,5,1,31],
+"PATTERNCURSOR":[2,21,17,31],
+"FILEMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"FILEENTRY":[3,3,12,15]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_GRADIENT":{
+
+"GuiHeight":25,
+"KeyInput":{
+" ":"ED_GRADIENT2",
+"Shift+37":"ED_SELLEFT",
+"Shift+39":"ED_SELRIGHT",
+"Shift+38":"ED_SELUP",
+"Shift+40":"ED_SELDOWN",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"F":"ED_FLOODSEL",
+"X":"ED_FLOODSEL",
+"27":"ED_CANCELGRADIENT",
+"13":"ED_GRADIENT2"},
+"MouseInput":{
+"ED_FLOODSEL":[1,11,20,1],
+"ED_GRADIENT2":[1,14,20,1],
+"ED_CANCELGRADIENT":[1,15,20,1]
+},
+"Text":"
+                    
+ Gradient Fill Tool 
+                    
+ Select rectangle   
+ containing area... 
+                    
+  Shift + \u0018\u0019\u001a\u001b      
+                    
+ or select using... 
+                    
+  F   Flood Select  
+                    
+                    
+  Enter  Choose     
+   Esc   Cancel     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,31,1,27,18,31,1,31,20,31,20,31,20,31,20,31,1,112,14,31,5,31,20,31,20,31,20,31,1,48,3,31,16,31,20,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_GRADIENT2":{
+
+"GuiHeight":25,
+"KeyInput":{
+"27":"ED_CANCELGRADIENT",
+"37":"ED_GRADPTLEFT",
+"38":"ED_GRADPTUP",
+"39":"ED_GRADPTRIGHT",
+"40":"ED_GRADPTDOWN",
+"9":"ED_GRADCHANGEPT",
+"107":"ED_GRADDITHERMORE",
+"13":"ED_GRADIENTDONE",
+"L":"ED_GRADLINEAR",
+"109":"ED_GRADDITHERLESS",
+"R":"ED_GRADRADIAL",
+"B":"ED_GRADBILINEAR",
+"187":"ED_GRADDITHERMORE",
+"189":"ED_GRADDITHERLESS"},
+"MouseInput":{
+"ED_GRADCHANGEPT":[1,8,20,1],
+"ED_GRADIENTDONE":[1,9,20,1],
+"ED_CANCELGRADIENT":[1,10,20,1],
+"ED_GRADDITHERMORE":[1,12,20,1],
+"ED_GRADLINEAR":[1,16,20,1],
+"ED_GRADBILINEAR":[1,17,20,1],
+"ED_GRADRADIAL":[1,18,20,1]
+},
+"Text":"
+                    
+   Gradient Foci    
+                    
+ Select points for  
+ gradient focus:    
+                    
+  \u0018\u0019\u001a\u001b   Move Pt.   
+   Tab   Other Pt.  
+  Enter  Finalize   
+   Esc   Cancel     
+                    
+   +/-   Dither     
+                    
+ Gradient Type:     
+                    
+  L  Linear         
+  B  Bilinear       
+  R  Radial         
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,20,31,20,31,20,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,12,31,1,112,7,31,12,31,20,31,1,48,7,31,12,31,20,31,20,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_TYPEALL":{
+
+"GuiHeight":25,
+"KeyInput":{
+" ":"ED_TYPEALLSEL",
+"33":"ED_TYPEALLPREV",
+"34":"ED_TYPEALLNEXT",
+"E":"ED_TYPEEDITOR",
+"N":"ED_TYPENEW",
+"37":"ED_TYPELEFT",
+"38":"ED_TYPEUP",
+"39":"ED_TYPERIGHT",
+"40":"ED_TYPEDOWN",
+"27":"ED_CANCELALLTYPE",
+"13":"ED_TYPEALLSEL"},
+"MouseInput":{
+"ED_TYPEALLPREV":[1,25,6,1],
+"ED_TYPEALLNEXT":[8,25,6,1],
+"ED_TYPEEDITOR":[43,24,16,1],
+"ED_TYPENEW":[43,25,16,1]
+},
+"Text":"
+ Select Type                             \u00B3  Type Info                           
+\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C2\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C5\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4
+                    \u00B3                    \u00B3 NUMBER:                              
+                    \u00B3                    \u00B3 CYCLE:                               
+                    \u00B3                    \u00B3 STEPX:                               
+                    \u00B3                    \u00B3 STEPY:                               
+                    \u00B3                    \u00B3 CHAR:                                
+                    \u00B3                    \u00B3 COLOR:                               
+                    \u00B3                    \u00B3 NOSTAT:                              
+                    \u00B3                    \u00B3 BLOCKOBJECT:                         
+                    \u00B3                    \u00B3 BLOCKPLAYER:                         
+                    \u00B3                    \u00B3 ALWAYSLIT:                           
+                    \u00B3                    \u00B3 DOMINANTCOLOR:                       
+                    \u00B3                    \u00B3 FULLCOLOR:                           
+                    \u00B3                    \u00B3 TEXTDRAW:                            
+                    \u00B3                    \u00B3 CUSTOMDRAW:                          
+                    \u00B3                    \u00B3 HASOWNCHAR:                          
+                    \u00B3                    \u00B3 HASOWNCODE:                          
+                    \u00B3                    \u00B3 CUSTOMSTART:                         
+                    \u00B3                    \u00B3 PUSHABLE:                            
+                    \u00B3                    \u00B3 SQUASHABLE:                          
+                    \u00B3                    \u00B3 EXTRAS:                              
+                    \u00B3                    \u00B3                                      
+\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C1\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00B4  E  Edit Type                        
+  PgUp/PgDn   More Types                 \u00B3  N  New  Type                        
+",
+"GuiLocX":1,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"Label":{
+"TYPE1":[4,3,16,30],
+"TYPE2":[25,3,16,30],
+"TYPEINFO":[58,3,30,30],
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":80,
+"Color":[27,60,31,20,27,80,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,31,20,27,1,31,20,27,1,31,38,27,43,48,3,30,34,31,1,112,11,30,12,31,17,27,1,31,1,112,3,31,1,30,33],
+"Viewport":[1,26,60,25]},
+
+"ED_F1":{
+
+"GuiHeight":20,
+"KeyInput":{
+"Z":"ED_TYPEPLAYER",
+"A":"ED_TYPEAMMO",
+"P":"ED_TYPEPASSAGE",
+"K":"ED_TYPEKEY",
+"G":"ED_TYPEGEM",
+"B":"ED_TYPEBOMB",
+"D":"ED_TYPEDOOR",
+"49":"ED_TYPECLOCKWISE",
+"50":"ED_TYPECOUNTER",
+"S":"ED_TYPESCROLL",
+"U":"ED_TYPEDUPLICATOR",
+"T":"ED_TYPETORCH",
+"27":"ED_CANCELTYPE",
+"E":"ED_TYPEENERGIZER"},
+"Text":"
+                    
+     Items          
+                    
+  Z  Player       \u0002 
+  A  Ammo         \u0084 
+  T  Torch        \u009D 
+  G  Gem          \u0004 
+  K  Key          \f 
+  D  Door         \t 
+  S  Scroll       \u00E8 
+  P  Passage      \u00F0 
+  U  Duplicator   \u00FA 
+  B  Bomb         \u000B 
+  E  Energizer    \u007F 
+                    
+     Conveyors      
+                    
+  1  Clockwise    / 
+  2  Counter      \\ 
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"MouseInput":{
+"ED_TYPEPLAYER":[1,4,20,1],
+"ED_TYPEAMMO":[1,5,20,1],
+"ED_TYPETORCH":[1,6,20,1],
+"ED_TYPEGEM":[1,7,20,1],
+"ED_TYPEKEY":[1,8,20,1],
+"ED_TYPEDOOR":[1,9,20,1],
+"ED_TYPESCROLL":[1,10,20,1],
+"ED_TYPEPASSAGE":[1,11,20,1],
+"ED_TYPEDUPLICATOR":[1,12,20,1],
+"ED_TYPEBOMB":[1,13,20,1],
+"ED_TYPEENERGIZER":[1,14,20,1],
+"ED_TYPECLOCKWISE":[1,18,20,1],
+"ED_TYPECOUNTER":[1,19,20,1]
+},
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,1,96,3,31,16,31,1,64,3,31,14,3,1,31,1,31,1,96,3,31,14,6,1,31,1,31,1,64,3,31,14,12,1,31,1,31,1,96,3,31,14,10,1,31,1,31,1,64,3,31,14,122,1,31,1,31,1,96,3,31,14,15,1,31,1,31,1,64,3,31,14,95,1,31,1,31,1,96,3,31,14,15,1,31,1,31,1,64,3,31,14,14,1,31,1,31,1,96,3,31,14,5,1,31,1,31,20,31,5,27,9,31,6,31,20,31,1,96,3,31,14,11,1,31,1,31,1,64,3,31,14,11,1,31,1,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_F2":{
+
+"GuiHeight":20,
+"KeyInput":{
+"H":"ED_TYPEHEAD",
+"R":"ED_TYPERUFFIAN",
+"A":"ED_TYPESTAR",
+"B":"ED_TYPEBEAR",
+"Y":"ED_TYPESHARK",
+"G":"ED_TYPESPINNINGGUN",
+"L":"ED_TYPELION",
+"V":"ED_TYPESLIME",
+"S":"ED_TYPESEGMENT",
+"O":"ED_TYPEOBJECT",
+"T":"ED_TYPETIGER",
+"P":"ED_TYPEPUSHER",
+"27":"ED_CANCELTYPE",
+"U":"ED_TYPEBULLET"},
+"Text":"
+                    
+     Creatures      
+                    
+  B  Bear         \u0099 
+  R  Ruffian      \u0005 
+  O  Object       \u0001 
+  V  Slime        * 
+  Y  Shark        ^ 
+  G  Spinning gun \u0018 
+  P  Pusher       \u0010 
+  L  Lion         \u00EA 
+  T  Tiger        \u00E3 
+  U  Bullet       \u00F8 
+  A  Star         / 
+                    
+     Centipedes     
+                    
+  H  Head         \u00E9 
+  S  Segment      O 
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"MouseInput":{
+"ED_TYPEBEAR":[1,4,20,1],
+"ED_TYPERUFFIAN":[1,5,20,1],
+"ED_TYPEOBJECT":[1,6,20,1],
+"ED_TYPESLIME":[1,7,20,1],
+"ED_TYPESHARK":[1,8,20,1],
+"ED_TYPESPINNINGGUN":[1,9,20,1],
+"ED_TYPEPUSHER":[1,10,20,1],
+"ED_TYPELION":[1,11,20,1],
+"ED_TYPETIGER":[1,12,20,1],
+"ED_TYPEBULLET":[1,13,20,1],
+"ED_TYPESTAR":[1,14,20,1],
+"ED_TYPEHEAD":[1,18,20,1],
+"ED_TYPESEGMENT":[1,19,20,1]
+},
+"Label":{
+"BEARCHAR":[19,4,5,31],
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,1,96,3,31,14,6,1,31,1,31,1,64,3,31,14,13,1,31,1,31,1,96,3,31,14,14,1,31,1,31,1,64,3,31,14,10,1,31,1,31,1,96,3,31,14,7,1,31,1,31,1,64,3,31,14,15,1,31,1,31,1,96,3,31,14,14,1,31,1,31,1,64,3,31,14,12,1,31,1,31,1,96,3,31,14,11,1,31,1,31,1,64,3,31,14,15,1,31,1,31,1,96,3,31,14,13,1,31,1,31,20,31,5,27,10,31,5,31,20,31,1,96,3,31,14,12,1,31,1,31,1,64,3,31,14,12,1,31,1,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_F3":{
+
+"GuiHeight":25,
+"KeyInput":{
+"F":"ED_TYPEFOREST",
+"R":"ED_TYPERICOCHET",
+"W":"ED_TYPEWATER",
+"E":"ED_TYPEBOARDEDGE",
+"H":"ED_TYPE_BEAMHORIZ",
+"B":"ED_TYPEBREAKABLE",
+"T":"ED_TYPETRANSPORTER",
+"D":"ED_TYPEDEADSMILEY",
+"A":"ED_TYPEFAKE",
+"M":"ED_TYPEMONITOR",
+"L":"ED_TYPEBLINKWALL",
+"49":"ED_TYPESLIDERNS",
+"50":"ED_TYPESLIDEREW",
+"S":"ED_TYPESOLID",
+"I":"ED_TYPEINVISIBLE",
+"N":"ED_TYPENORMAL",
+"27":"ED_CANCELTYPE",
+"O":"ED_TYPEBOULDER",
+"V":"ED_TYPE_BEAMVERT"},
+"Text":"
+                    
+     Terrains       
+                    
+  W  Water        \u00B0 
+  F  Forest       \u00B0 
+  S  Solid        \u00DB 
+  N  Normal       \u00B2 
+  B  Breakable    \u00B1 
+  O  Boulder      \u00FE 
+  1  Slider (NS)  \u0012 
+  2  Slider (EW)  \u001d 
+  A  Fake         \u00B2 
+  I  Invisible    \u00B0 
+  L  Blink wall   \u00CE 
+  T  Transporter  < 
+  R  Ricochet     * 
+                    
+     Special        
+                    
+  E  Board edge   E 
+  M  Monitor      M 
+  H  Beam horiz   \u00CD 
+  V  Beam vert    \u00BA 
+  D  Dead smiley  \u0002 
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"MouseInput":{
+"ED_TYPEWATER":[1,4,20,1],
+"ED_TYPEFOREST":[1,5,20,1],
+"ED_TYPESOLID":[1,6,20,1],
+"ED_TYPENORMAL":[1,7,20,1],
+"ED_TYPEBREAKABLE":[1,8,20,1],
+"ED_TYPEBOULDER":[1,9,20,1],
+"ED_TYPESLIDERNS":[1,10,20,1],
+"ED_TYPESLIDEREW":[1,11,20,1],
+"ED_TYPEFAKE":[1,12,20,1],
+"ED_TYPEINVISIBLE":[1,13,20,1],
+"ED_TYPEBLINKWALL":[1,14,20,1],
+"ED_TYPETRANSPORTER":[1,15,20,1],
+"ED_TYPERICOCHET":[1,16,20,1],
+"ED_TYPEBOARDEDGE":[1,20,20,1],
+"ED_TYPEMONITOR":[1,21,20,1],
+"ED_TYPE_BEAMHORIZ":[1,22,20,1],
+"ED_TYPE_BEAMVERT":[1,23,20,1],
+"ED_TYPEDEADSMILEY":[1,24,20,1]
+},
+"Label":{
+"WATERLAVA":[6,4,5,31],
+"WATERLAVACHAR":[19,4,5,31],
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,1,96,3,31,16,31,1,64,3,31,14,32,1,31,1,31,1,96,3,31,14,14,1,31,1,31,1,64,3,31,14,14,1,31,1,31,1,96,3,31,14,14,1,31,1,31,1,64,3,31,14,11,1,31,1,31,1,96,3,31,14,11,1,31,1,31,1,64,3,31,14,11,1,31,1,31,1,96,3,31,14,13,1,31,1,31,1,64,3,31,14,12,1,31,1,31,1,96,3,31,14,15,1,31,1,31,1,64,3,31,14,11,1,31,1,31,1,96,3,27,1,31,8,27,4,31,1,10,1,31,1,31,20,27,20,27,20,27,1,64,3,31,14,15,1,31,1,31,1,96,3,31,14,15,1,31,1,31,1,64,3,27,1,31,10,27,3,15,1,27,1,31,1,96,3,31,14,15,1,31,1,27,1,64,3,27,1,31,11,27,2,15,1,31,1,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_F4":{
+
+"GuiHeight":20,
+"KeyInput":{
+"D":"ED_TYPEBDRAGONPUP",
+"P":"ED_TYPEPAIRER",
+"27":"ED_CANCELTYPE",
+"S":"ED_TYPESPIDER",
+"R":"ED_TYPEROTON"},
+"Text":"
+                    
+     Uglies         
+                    
+  R  Roton        \u0094 
+  D  Dragon Pup   \u0095 
+  P  Pairer       \u00E5 
+  S  Spider       \u000F 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"MouseInput":{
+"ED_TYPEROTON":[1,4,20,1],
+"ED_TYPEBDRAGONPUP":[1,5,20,1],
+"ED_TYPEPAIRER":[1,6,20,1],
+"ED_TYPESPIDER":[1,7,20,1]
+},
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,1,96,3,31,14,29,1,31,1,31,1,64,3,31,14,20,1,31,1,31,1,96,3,31,14,25,1,31,1,31,1,64,3,31,14,30,1,31,1,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_F5":{
+
+"GuiHeight":20,
+"KeyInput":{
+"F":"ED_TYPEFLOOR",
+"Z":"ED_TYPESTONE",
+"50":"ED_TYPEWATERS",
+"52":"ED_TYPEWATERW",
+"54":"ED_TYPEWATERE",
+"56":"ED_TYPEWATERN",
+"27":"ED_CANCELTYPE",
+"W":"ED_TYPEWEB"},
+"Text":"
+                    
+     SZT Terrains   
+                    
+  F  Floor        \u00B0 
+  8  Water N      \u001E 
+  2  Water S      \u001F 
+  4  Water W      \u0011 
+  6  Water E      \u0010 
+  W  Web          \u00C5 
+  Z  Stone        Z 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"MouseInput":{
+"ED_TYPEFLOOR":[1,4,20,1],
+"ED_TYPEWATERN":[1,5,20,1],
+"ED_TYPEWATERS":[1,6,20,1],
+"ED_TYPEWATERW":[1,7,20,1],
+"ED_TYPEWATERE":[1,8,20,1],
+"ED_TYPEWEB":[1,9,20,1],
+"ED_TYPESTONE":[1,10,20,1]
+},
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,27,20,31,20,31,1,96,3,31,14,30,1,31,1,31,1,64,3,31,14,25,1,31,1,31,1,96,3,31,14,25,1,31,1,31,1,64,3,31,14,25,1,31,1,31,1,96,3,31,14,25,1,31,1,31,1,64,3,31,14,15,1,31,1,31,1,96,3,31,14,11,1,31,1,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"Viewport":[1,1,60,25]},
+
+"ED_STATEDIT":{
+
+"GuiWidth":20,
+"KeyInput":{},
+"Text":"
+                    
+ Edit Stat Element  
+                    
+   \u001b/\u001a   Adjust     
+  Enter  Edit       
+                    
+   Del   Remove     
+                    
+   Esc   Done       
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeX":80,
+"Color":[28,20,27,20,31,20,31,1,112,7,31,12,31,1,48,7,31,12,31,20,31,1,112,7,31,12,31,20,31,1,48,7,31,12,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"GuiLocY":1,
+"OverallSizeY":25,
+"Label":{
+"FILEMESSAGE":[1,11,20,31],
+"FILEENTRY":[2,12,19,15],
+"CONFMESSAGE":[1,11,20,31],
+"TOAST1":[-59,25,60,15]
+},
+"GuiHeight":20,
+"Viewport":[1,1,60,25],
+"Use40Column":0},
+
+"ED_DELEDIT":{
+
+"GuiWidth":20,
+"KeyInput":{},
+"Text":"
+                    
+  Edit Properties   
+                    
+                    
+  Enter  Edit       
+                    
+   Del   Remove     
+                    
+   Esc   Done       
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeX":80,
+"Color":[28,20,27,20,31,20,31,20,31,1,48,7,31,12,31,20,31,1,112,7,31,12,31,20,31,1,48,7,31,12,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"GuiLocY":1,
+"OverallSizeY":25,
+"Label":{
+"FILEMESSAGE":[1,11,20,31],
+"FILEENTRY":[2,12,19,15],
+"CONFMESSAGE":[1,11,20,31],
+"TOAST1":[-59,25,60,15]
+},
+"GuiHeight":20,
+"Viewport":[1,1,60,25],
+"Use40Column":0},
+
+"ED_SCROLLEDIT":{
+
+"GuiWidth":20,
+"KeyInput":{},
+"Text":"
+                    
+  Edit Properties   
+                    
+                    
+  Enter  Edit       
+                    
+                    
+                    
+   Esc   Done       
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeX":80,
+"Color":[28,20,27,20,31,20,31,20,31,1,48,7,31,12,31,20,31,20,31,20,31,1,112,7,31,12,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"GuiLocY":1,
+"OverallSizeY":25,
+"Label":{
+"FILEMESSAGE":[1,11,20,31],
+"FILEENTRY":[2,12,19,15],
+"CONFMESSAGE":[1,11,20,31],
+"TOAST1":[-59,25,60,15]
+},
+"GuiHeight":20,
+"Viewport":[1,1,60,25],
+"Use40Column":0},
+
+"ED_PASTE":{
+
+"GuiHeight":25,
+"KeyInput":{
+" ":"ED_REALLYPASTE",
+"13":"ED_REALLYPASTE",
+"37":"ED_PASTESELLEFT",
+"38":"ED_PASTESELUP",
+"39":"ED_PASTESELRIGHT",
+"40":"ED_PASTESELDOWN",
+"27":"ED_CANCELPASTE"
+},
+"Text":"
+                    
+ Paste Clipboard    
+                    
+ Choose destination 
+ to paste block...  
+                    
+  \u0018\u0019\u001a\u001b              
+                    
+                    
+                    
+  Enter  Paste      
+   Esc   Cancel     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+",
+"GuiLocX":61,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":1,
+"Use40Column":0,
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":20,
+"Color":[28,20,31,1,27,18,31,1,31,20,31,20,31,20,31,20,31,1,112,6,31,13,31,20,31,20,31,20,31,1,48,7,31,12,31,1,112,7,31,12,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20,31,20],
+"Viewport":[1,1,60,25]},
+
+
+
+
+"ED_COLORS":{
+
+"GuiHeight":10,
+"KeyInput":{
+" ":"ED_COLORSEL",
+"27":"ED_COLORCANCEL",
+"13":"ED_COLORSEL"},
+"Text":"
+\u00DA\u00C4\u00C4\u00C4\u00C4\u00C4 Enter:  Select Color \u00C4\u00C4\u00C4\u00C4\u00C4\u00BF
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00C0\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00D9
+",
+"GuiLocX":13,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":7,
+"Use40Column":0,
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":34,
+"Color":[15,34,15,1,0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1,8,1,9,1,10,1,11,1,12,1,13,1,14,1,15,1,128,1,129,1,130,1,131,1,132,1,133,1,134,1,135,1,136,1,137,1,138,1,139,1,140,1,141,1,142,1,143,1,15,1,15,1,16,1,17,1,18,1,19,1,20,1,21,1,22,1,23,1,24,1,25,1,26,1,27,1,28,1,29,1,30,1,31,1,144,1,145,1,146,1,147,1,148,1,149,1,150,1,151,1,152,1,153,1,154,1,155,1,156,1,157,1,158,1,159,1,15,1,15,1,32,1,33,1,34,1,35,1,36,1,37,1,38,1,39,1,40,1,41,1,42,1,43,1,44,1,45,1,46,1,47,1,160,1,161,1,162,1,163,1,164,1,165,1,166,1,167,1,168,1,169,1,170,1,171,1,172,1,173,1,174,1,175,1,15,1,15,1,48,1,49,1,50,1,51,1,52,1,53,1,54,1,55,1,56,1,57,1,58,1,59,1,60,1,61,1,62,1,63,1,176,1,177,1,178,1,179,1,180,1,181,1,182,1,183,1,184,1,185,1,186,1,187,1,188,1,189,1,190,1,191,1,15,1,15,1,64,1,65,1,66,1,67,1,68,1,69,1,70,1,71,1,72,1,73,1,74,1,75,1,76,1,77,1,78,1,79,1,192,1,193,1,194,1,195,1,196,1,197,1,198,1,199,1,200,1,201,1,202,1,203,1,204,1,205,1,206,1,207,1,15,1,15,1,80,1,81,1,82,1,83,1,84,1,85,1,86,1,87,1,88,1,89,1,90,1,91,1,92,1,93,1,94,1,95,1,208,1,209,1,210,1,211,1,212,1,213,1,214,1,215,1,216,1,217,1,218,1,219,1,220,1,221,1,222,1,223,1,15,1,15,1,96,1,97,1,98,1,99,1,100,1,101,1,102,1,103,1,104,1,105,1,106,1,107,1,108,1,109,1,110,1,111,1,224,1,225,1,226,1,227,1,228,1,229,1,230,1,231,1,232,1,233,1,234,1,235,1,236,1,237,1,238,1,239,1,15,1,15,1,112,1,113,1,114,1,115,1,116,1,117,1,118,1,119,1,120,1,121,1,122,1,123,1,124,1,125,1,126,1,127,1,240,1,241,1,242,1,243,1,244,1,245,1,246,1,247,1,248,1,249,1,250,1,251,1,252,1,253,1,254,1,255,1,15,1,15,34],
+"Viewport":[1,26,60,25]},
+
+"ED_CHARS":{
+
+"GuiHeight":10,
+"KeyInput":{
+" ":"ED_CHARSEL",
+"27":"ED_CHARCANCEL",
+"13":"ED_CHARSEL"},
+"Text":"
+\u00DA\u00C4\u00C4\u00C4 Enter:  Select Character \u00C4\u00C4\u00C4\u00BF
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00B3                                \u00B3
+\u00C0\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00D9
+",
+"GuiLocX":13,
+"OverallSizeY":25,
+"OverallSizeX":80,
+"GuiLocY":7,
+"Use40Column":0,
+"Label":{
+"TOAST1":[-59,25,60,15]},
+"GuiWidth":34,
+"Color":[15,34,15,34,15,34,15,34,15,34,15,34,15,34,15,34,15,34,15,34],
+"Viewport":[1,26,60,25]},
+
+"ED_CHAREDIT":{
+
+"GuiLocY":1,
+"GuiLocX":1,
+"Use40Column":0,
+"Viewport":[1,26,60,25],
+"OverallSizeY":25,
+"Color":[31,60,31,20,31,23,48,3,31,21,48,3,31,10,31,20,31,3,8,16,31,4,112,3,31,1,30,6,31,2,26,1,31,11,112,3,31,1,30,4,31,5,31,20,31,3,8,16,31,41,31,20,31,3,8,16,31,4,48,7,31,17,48,3,31,10,31,20,31,3,8,16,31,4,112,7,31,1,30,14,31,2,112,3,31,1,30,5,31,4,31,20,31,3,8,16,31,4,48,7,31,17,48,3,31,6,31,4,31,20,31,3,8,16,31,4,112,7,31,1,30,12,31,17,31,20,31,3,8,16,31,41,31,20,31,3,8,16,31,4,48,3,31,20,48,5,31,9,31,20,31,3,8,16,31,4,112,3,31,5,30,6,31,1,30,3,31,5,112,5,31,1,30,4,31,4,31,20,31,3,8,16,31,27,48,5,31,9,31,20,31,3,8,16,31,4,48,11,31,12,112,5,31,1,30,5,31,3,31,20,31,3,8,16,31,41,31,20,31,3,8,16,31,41,31,20,31,3,8,16,31,41,31,20,31,3,8,16,31,5,8,32,31,4,31,20,31,3,8,16,31,5,8,32,31,4,31,20,31,24,8,32,31,4,31,20,31,3,27,10,31,11,8,32,31,4,31,20,31,24,8,32,31,4,31,20,31,15,8,3,31,6,8,32,31,4,31,20,31,5,30,8,31,2,8,3,31,6,8,32,31,4,31,20,31,15,8,3,31,6,8,32,31,4,31,20,31,80],
+"MouseInput":{
+"CE_MIRRORVERT":[23,11,20,1],
+"CE_TOGGLEBIT":[23,7,24,1],
+"CE_PASTE":[46,12,14,1],
+"CE_SAVE":[47,3,11,1],
+"CE_NEXTCHAR":[23,6,24,1],
+"CE_APPLY":[47,5,11,1],
+"CE_NEGATE":[46,10,14,1],
+"CE_RESET":[47,6,11,1],
+"CE_EXIT":[47,7,11,1],
+"CE_CLEAR":[46,13,14,1],
+"CE_DRAWINGMODE":[23,8,24,1],
+"CE_LOAD":[47,2,11,1],
+"CE_COPY":[46,11,14,1],
+"CE_COUNT":[23,2,12,1],
+"CE_HEIGHT":[23,3,12,1],
+"CE_MIRRORHORIZ":[23,10,20,1]
+},
+"OverallSizeX":80,
+"KeyInput":{
+"27":"CE_EXIT",
+"Q":"CE_EXIT",
+"L":"CE_LOAD",
+"S":"CE_SAVE",
+"A":"CE_APPLY",
+"R":"CE_RESET",
+" ":"CE_TOGGLEBIT",
+"9":"CE_DRAWINGMODE",
+"C":"CE_COUNT",
+"H":"CE_HEIGHT",
+"Ctrl+37":"CE_ROTATELEFT",
+"Ctrl+39":"CE_ROTATERIGHT",
+"37":"CE_LEFT",
+"38":"CE_UP",
+"39":"CE_RIGHT",
+"40":"CE_DOWN",
+"46":"CE_CLEAR",
+"Shift+187":"CE_NEXTCHAR",
+"187":"CE_NEXTCHAR",
+"189":"CE_PREVCHAR",
+"33":"CE_PREVCHAR",
+"34":"CE_NEXTCHAR",
+"113":"CE_COPY",
+"114":"CE_PASTE",
+"M":"CE_MIRRORHORIZ",
+"F":"CE_MIRRORVERT",
+"N":"CE_NEGATE",
+"Ctrl+38":"CE_ROTATEUP",
+"Ctrl+40":"CE_ROTATEDOWN"
+},
+"GuiHeight":25,
+"GuiWidth":80,
+"Text":"
+   7 6 5 4 3 2 1 0                                                              
+                        C  Count                L  Load                         
+0  ................     H  Height               S  Save                         
+1  ................                                                             
+2  ................     \u0018\u0019\u001b\u001a   Move Cursor      A  Apply                        
+3  ................      +/-   Next/Prev Char   R  Reset                        
+4  ................     Space  Toggle Bit       Q  Quit                         
+5  ................      Tab   Drawing Mode                                     
+6  ................                                                             
+7  ................     M      Mirror \u001b/\u001a      N    Negate                      
+8  ................     F      Mirror \u0018/\u0019      F2   Copy                        
+9  ................                            F3   Paste                       
+10 ................     Ctrl+\u0018\u0019\u001b\u001a  Rotate      Del  Clear                       
+11 ................                 Cell                                        
+12 ................                                                             
+13 ................    \u00DA\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4 Character Set \u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00BF                       
+14 ................    \u00B3................................\u00B3                       
+15 ................    \u00B3................................\u00B3                       
+                       \u00B3................................\u00B3                       
+   Char Code:          \u00B3................................\u00B3                       
+                       \u00B3................................\u00B3                       
+               ...     \u00B3................................\u00B3                       
+     Preview:  ...     \u00B3................................\u00B3                       
+               ...     \u00B3................................\u00B3                       
+                       \u00C0\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00C4\u00D9                       
+",
+"Label":{
+"CONFMESSAGE":[61,2,20,31],
+"HEIGHTLABEL":[36,3,3,26,1],
+"PREVIEWCENTER":[17,23,3,15],
+"CHARCODELABEL":[16,20,3,26],
+"CHARSETGRID":[25,17,32,15],
+"BITGRID":[4,3,16,15],
+"COUNTENTRY":[36,2,3,26],
+"COUNTLABEL":[36,2,3,26,1],
+"PREVIEWGRID":[16,22,3,15]}
+},
+
+"ED_ULTRA1":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"Text":"
+                    
+  ZZT Ultra Editor  
+                    
+  L  Load  H  Help  
+  S  Save  Q  Quit  
+                    
+  I  Info  W  World 
+  B  Switch Boards  
+                    
+  F1  Floors        
+  F2  Blocking      
+  F3  Stat Types    
+  F4  Enter Text    
+   M  More...       
+                    
+  Space  Plot       
+   Tab   Draw Off   
+    P    Pattern    
+    C    Color      
+    V    Blink Off  
+                    
+ \u00DB\u00B2\u00B1\u00B0 \u00CE\u00B3          a 
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF D 
+                    
+",
+"Color":[28,20,31,1,112,18,31,1,31,20,31,1,112,3,31,6,112,3,31,7,31,1,48,3,31,6,48,3,31,7,31,20,31,1,112,3,31,6,112,3,31,7,31,1,48,3,31,16,31,20,31,1,112,4,31,15,31,1,48,4,31,15,31,1,112,4,31,15,31,1,48,4,31,15,31,1,112,4,31,15,31,20,31,1,48,7,31,12,31,1,112,7,31,6,30,3,31,3,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,7,30,3,31,2,31,20,31,1,15,6,1,11,24,1,31,1,31,20,31,1,1,2,2,1,3,1,4,1,5,1,6,1,7,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,1,30,1,31,1,31,20],
+"Viewport":[1,1,60,25],
+"SCROLL":[-30,12,42,15,0],
+"KeyInput":{
+"8":"ED_DELETE",
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"33":"ED_BOARDPREV",
+"34":"ED_BOARDNEXT",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"45":"ED_PICKUPNOEDIT",
+"46":"ED_DELETE",
+"48":"ED_BUFEMPTY",
+"49":"ED_BUF1",
+"50":"ED_BUF2",
+"51":"ED_BUF3",
+"52":"ED_BUF4",
+"53":"ED_BUF5",
+"54":"ED_BUF6",
+"55":"ED_BUF7",
+"56":"ED_BUF8",
+"57":"ED_BUF9",
+"187":"ED_CHAREDIT",
+"188":"ED_BUFDEC",
+"190":"ED_BUFINC",
+"191":"ED_BUFLOCK",
+"112":"ED_FLOOR",
+"113":"ED_BLOCKING",
+"114":"ED_STATTYPES",
+"115":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"B":"ED_BOARD",
+"Ctrl+T":"ED_TILEINFO",
+"A":"ED_ACQUIRE",
+"Ctrl+X":"ED_CUT",
+"Ctrl+C":"ED_COPY",
+"Shift+39":"ED_SELRIGHT",
+"Shift+40":"ED_SELDOWN",
+"Ctrl+V":"ED_PASTE",
+"Ctrl+S":"ED_STATELEM",
+"Ctrl+R":"ED_REGION",
+"Ctrl+E":"ED_AESTHETIC",
+"Shift+C":"ED_COLOR2",
+"Shift+49":"ED_HELPEDITOR",
+"V":"ED_BLINK",
+"X":"ED_FLOODSEL",
+"W":"ED_WORLD",
+"T":"ED_TRANSFER",
+"S":"ED_SAVE",
+"R":"ED_RUN",
+"Q":"ED_QUIT",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"O":"ED_OBJEDIT",
+"M":"ED_SHOWULTRA2",
+"N":"ED_NEW",
+"Z":"ED_CLEAR",
+"L":"ED_LOAD",
+"Shift+X":"ED_SELSIMILAR",
+"K":"ED_KOLOR",
+"Shift+K":"ED_BIT7TOGGLE",
+"Ctrl+K":"ED_KOLOR",
+"Ctrl+A":"ED_TEXTSPECCHAR",
+" ":"ED_PLACE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"Shift+37":"ED_SELLEFT",
+"Ctrl+O":"ED_HIDDENOBJ",
+"F":"ED_FILL",
+"Shift+9":"ED_DRAWINGCYCLE",
+"E":"ED_SWAPED",
+"G":"ED_GRADIENT",
+"D":"ED_DEFAULTCOLOR",
+"Shift+38":"ED_SELUP",
+"Shift+F":"ED_RANDOMFILL",
+"C":"ED_COLOR"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_LOAD":[1,4,10,1],
+"ED_SAVE":[1,5,10,1],
+"ED_HELP":[11,4,10,1],
+"ED_QUIT":[11,5,10,1],
+"ED_INFO":[1,7,10,1],
+"ED_WORLD":[11,7,10,1],
+"ED_BOARD":[1,8,20,1],
+"ED_FLOOR":[1,10,20,1],
+"ED_BLOCKING":[1,11,20,1],
+"ED_STATTYPES":[1,12,20,1],
+"ED_TEXT":[1,13,6,1],
+"ED_SHOWULTRA2":[1,14,20,1],
+"ED_PLACE":[1,16,9,1],
+"ED_DRAWING":[1,17,9,1],
+"ED_PATTERN":[1,18,9,1],
+"ED_COLOR":[1,19,9,1],
+"ED_BLINK":[1,20,9,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"FILEMESSAGE":[1,2,20,31],
+"COLORCURSOR2":[10,25,8,31],
+"BLINK":[10,20,9,30],
+"COORDS":[2,1,10,28],
+"ACQUIREMODE":[19,22,1,30],
+"DEFCOLORMODE":[19,24,1,30],
+"FILEENTRY":[3,3,12,15],
+"DRAW":[10,17,10,30],
+"CONFMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"COLORCURSOR1":[2,23,16,31],
+"BUFLOCK":[8,22,1,12],
+"BBUFFER":[9,22,10,15],
+"PATTERNCURSOR":[2,21,17,31],
+"STATS":[11,1,10,28],
+"MODFLAG":[1,5,1,31],
+"ENTERTEXT":[7,13,10,158]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_ULTRA2":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+                    
+  More Commands #1  
+                    
+  N  New   Z  Clear 
+  T  Transfer Board 
+                    
+  PgUp  Prev Board  
+  PgDn  Next Board  
+                    
+  <  Buf. Decrease  
+  >  Buf. Increase  
+  /  Lock Buffer    
+  M  More...        
+                    
+   Del   Delete     
+  Enter  Edit/Copy  
+   Ins   Copy       
+    D    Def. Color 
+    K    Color Dlg. 
+    F    Fill       
+                    
+ \u00DB\u00B2\u00B1\u00B0 \u00CE\u00B3          a 
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF D 
+                    
+",
+"Color":[28,20,31,1,112,18,31,1,31,20,31,1,112,3,31,6,112,3,31,7,31,1,48,3,31,16,31,20,31,1,112,6,31,13,31,1,48,6,31,13,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,1,48,3,31,16,31,20,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,12,31,1,112,7,31,12,31,1,48,7,31,12,31,1,112,7,31,12,31,20,31,1,15,6,1,11,24,1,31,1,31,20,31,1,1,2,2,1,3,1,4,1,5,1,6,1,7,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,1,30,1,31,1,31,20],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"8":"ED_DELETE",
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"33":"ED_BOARDPREV",
+"34":"ED_BOARDNEXT",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"45":"ED_PICKUPNOEDIT",
+"46":"ED_DELETE",
+"48":"ED_BUFEMPTY",
+"49":"ED_BUF1",
+"50":"ED_BUF2",
+"51":"ED_BUF3",
+"52":"ED_BUF4",
+"53":"ED_BUF5",
+"54":"ED_BUF6",
+"55":"ED_BUF7",
+"56":"ED_BUF8",
+"57":"ED_BUF9",
+"187":"ED_CHAREDIT",
+"188":"ED_BUFDEC",
+"190":"ED_BUFINC",
+"191":"ED_BUFLOCK",
+"112":"ED_FLOOR",
+"113":"ED_BLOCKING",
+"114":"ED_STATTYPES",
+"115":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"B":"ED_BOARD",
+"Ctrl+T":"ED_TILEINFO",
+"A":"ED_ACQUIRE",
+"Ctrl+X":"ED_CUT",
+"Ctrl+C":"ED_COPY",
+"Shift+39":"ED_SELRIGHT",
+"Shift+40":"ED_SELDOWN",
+"Ctrl+V":"ED_PASTE",
+"Ctrl+S":"ED_STATELEM",
+"Ctrl+R":"ED_REGION",
+"Ctrl+E":"ED_AESTHETIC",
+"Shift+C":"ED_COLOR2",
+"Shift+49":"ED_HELPEDITOR",
+"V":"ED_BLINK",
+"X":"ED_FLOODSEL",
+"W":"ED_WORLD",
+"T":"ED_TRANSFER",
+"S":"ED_SAVE",
+"R":"ED_RUN",
+"Q":"ED_QUIT",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"O":"ED_OBJEDIT",
+"M":"ED_SHOWULTRA3",
+"N":"ED_NEW",
+"Z":"ED_CLEAR",
+"L":"ED_LOAD",
+"Shift+X":"ED_SELSIMILAR",
+"K":"ED_KOLOR",
+"Shift+K":"ED_BIT7TOGGLE",
+"Ctrl+K":"ED_KOLOR",
+"Ctrl+A":"ED_TEXTSPECCHAR",
+" ":"ED_PLACE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"Shift+37":"ED_SELLEFT",
+"Ctrl+O":"ED_HIDDENOBJ",
+"F":"ED_FILL",
+"Shift+9":"ED_DRAWINGCYCLE",
+"E":"ED_SWAPED",
+"G":"ED_GRADIENT",
+"D":"ED_DEFAULTCOLOR",
+"Shift+38":"ED_SELUP",
+"Shift+F":"ED_RANDOMFILL",
+"C":"ED_COLOR"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_NEW":[1,4,10,1],
+"ED_CLEAR":[11,4,10,1],
+"ED_TRANSFER":[1,5,20,1],
+"ED_BOARDPREV":[1,7,20,1],
+"ED_BOARDNEXT":[1,8,20,1],
+"ED_BUFDEC":[1,10,20,1],
+"ED_BUFINC":[1,11,20,1],
+"ED_BUFLOCK":[1,12,20,1],
+"ED_SHOWULTRA3":[1,13,20,1],
+"ED_DELETE":[1,15,20,1],
+"ED_PICKUP":[1,16,20,1],
+"ED_PICKUPNOEDIT":[1,17,20,1],
+"ED_DEFAULTCOLOR":[1,18,20,1],
+"ED_KOLOR":[1,19,20,1],
+"ED_FILL":[1,20,20,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"FILEMESSAGE":[1,2,20,31],
+"COLORCURSOR2":[10,25,8,31],
+"ACQUIREMODE":[19,22,1,30],
+"DEFCOLORMODE":[19,24,1,30],
+"FILEENTRY":[3,3,12,15],
+"CONFMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"COLORCURSOR1":[2,23,16,31],
+"BUFLOCK":[8,22,1,12],
+"BBUFFER":[9,22,10,15],
+"PATTERNCURSOR":[2,21,17,31]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_ULTRA3":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+                    
+  More Commands #2  
+                    
+   0   Select Empty 
+  1-9  Select Buf.  
+   A   Acquire      
+   G   Gradient     
+   !   HLP Editor   
+                    
+  M  More...        
+                    
+ Shift + ...        
+   C    BG Color    
+  Tab   Cycle Draw  
+   F    Random Fill 
+   X    Select Same 
+  \u0018\u0019\u001b\u001a  Box Select  
+                    
+                    
+                    
+                    
+ \u00DB\u00B2\u00B1\u00B0 \u00CE\u00B3          a 
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF D 
+                    
+",
+"Color":[28,20,31,1,112,18,31,1,31,20,31,1,112,5,31,14,31,1,48,5,31,14,31,1,112,5,31,14,31,1,48,5,31,14,31,1,112,5,31,14,31,20,31,1,48,3,31,16,31,20,31,20,31,1,112,6,31,13,31,1,48,6,31,13,31,1,112,6,31,13,31,1,48,6,31,13,31,1,112,6,31,13,31,20,31,20,31,20,31,20,31,1,15,6,1,11,24,1,31,1,31,20,31,1,1,2,2,1,3,1,4,1,5,1,6,1,7,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,1,30,1,31,1,31,20],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"8":"ED_DELETE",
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"33":"ED_BOARDPREV",
+"34":"ED_BOARDNEXT",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"45":"ED_PICKUPNOEDIT",
+"46":"ED_DELETE",
+"48":"ED_BUFEMPTY",
+"49":"ED_BUF1",
+"50":"ED_BUF2",
+"51":"ED_BUF3",
+"52":"ED_BUF4",
+"53":"ED_BUF5",
+"54":"ED_BUF6",
+"55":"ED_BUF7",
+"56":"ED_BUF8",
+"57":"ED_BUF9",
+"187":"ED_CHAREDIT",
+"188":"ED_BUFDEC",
+"190":"ED_BUFINC",
+"191":"ED_BUFLOCK",
+"112":"ED_FLOOR",
+"113":"ED_BLOCKING",
+"114":"ED_STATTYPES",
+"115":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"B":"ED_BOARD",
+"Ctrl+T":"ED_TILEINFO",
+"A":"ED_ACQUIRE",
+"Ctrl+X":"ED_CUT",
+"Ctrl+C":"ED_COPY",
+"Shift+39":"ED_SELRIGHT",
+"Shift+40":"ED_SELDOWN",
+"Ctrl+V":"ED_PASTE",
+"Ctrl+S":"ED_STATELEM",
+"Ctrl+R":"ED_REGION",
+"Ctrl+E":"ED_AESTHETIC",
+"Shift+C":"ED_COLOR2",
+"Shift+49":"ED_HELPEDITOR",
+"V":"ED_BLINK",
+"X":"ED_FLOODSEL",
+"W":"ED_WORLD",
+"T":"ED_TRANSFER",
+"S":"ED_SAVE",
+"R":"ED_RUN",
+"Q":"ED_QUIT",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"O":"ED_OBJEDIT",
+"M":"ED_SHOWULTRA4",
+"N":"ED_NEW",
+"Z":"ED_CLEAR",
+"L":"ED_LOAD",
+"Shift+X":"ED_SELSIMILAR",
+"K":"ED_KOLOR",
+"Shift+K":"ED_BIT7TOGGLE",
+"Ctrl+K":"ED_KOLOR",
+"Ctrl+A":"ED_TEXTSPECCHAR",
+" ":"ED_PLACE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"Shift+37":"ED_SELLEFT",
+"Ctrl+O":"ED_HIDDENOBJ",
+"F":"ED_FILL",
+"Shift+9":"ED_DRAWINGCYCLE",
+"E":"ED_SWAPED",
+"G":"ED_GRADIENT",
+"D":"ED_DEFAULTCOLOR",
+"Shift+38":"ED_SELUP",
+"Shift+F":"ED_RANDOMFILL",
+"C":"ED_COLOR"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_BUFEMPTY":[1,4,20,1],
+"ED_BUF1":[1,5,20,1],
+"ED_ACQUIRE":[1,6,20,1],
+"ED_GRADIENT":[1,7,20,1],
+"ED_HELPEDITOR":[1,8,20,1],
+"ED_SHOWULTRA4":[1,10,20,1],
+"ED_COLOR2":[1,13,20,1],
+"ED_DRAWINGCYCLE":[1,14,20,1],
+"ED_RANDOMFILL":[1,15,20,1],
+"ED_SELSIMILAR":[1,16,20,1],
+"ED_SWAPED":[1,2,20,1]
+},
+"Label":{
+"FILEMESSAGE":[1,2,20,31],
+"COLORCURSOR2":[10,25,8,31],
+"ACQUIREMODE":[19,22,1,30],
+"DEFCOLORMODE":[19,24,1,30],
+"FILEENTRY":[3,3,12,15],
+"CONFMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"COLORCURSOR1":[2,23,16,31],
+"BUFLOCK":[8,22,1,12],
+"BBUFFER":[9,22,10,15],
+"PATTERNCURSOR":[2,21,17,31]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+
+"ED_ULTRA4":{
+
+"GuiLocY":1,
+"Use40Column":0,
+"SCROLL":[-30,12,42,15,0],
+"Text":"
+                    
+  More Commands #3  
+                    
+  O  Object Library 
+  E  Editor Style   
+  =  Character Edit 
+  M  More...        
+                    
+ Ctrl + ...         
+  C  Copy Box Sel.  
+  X  Cut Box Sel.   
+  V  Paste Box Sel. 
+  O  Reveal Hidden  
+  T  Tile Info      
+  S  Stat Enumerate 
+  R  Edit Region    
+                    
+                    
+                    
+                    
+                    
+ \u00DB\u00B2\u00B1\u00B0 \u00CE\u00B3          a 
+                    
+  \u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF\u00DF D 
+                    
+",
+"Color":[28,20,31,1,112,18,31,1,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,1,48,3,31,16,31,20,31,20,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,1,48,3,31,16,31,1,112,3,31,16,31,20,31,20,31,20,31,20,31,20,31,1,15,6,1,11,24,1,31,1,31,20,31,1,1,2,2,1,3,1,4,1,5,1,6,1,7,1,8,1,25,1,42,1,59,1,76,1,93,1,110,1,127,1,31,1,30,1,31,1,31,20],
+"Viewport":[1,1,60,25],
+"KeyInput":{
+"8":"ED_DELETE",
+"9":"ED_DRAWING",
+"13":"ED_PICKUP",
+"27":"ED_QUIT",
+"33":"ED_BOARDPREV",
+"34":"ED_BOARDNEXT",
+"37":"ED_LEFT",
+"38":"ED_UP",
+"39":"ED_RIGHT",
+"40":"ED_DOWN",
+"45":"ED_PICKUPNOEDIT",
+"46":"ED_DELETE",
+"48":"ED_BUFEMPTY",
+"49":"ED_BUF1",
+"50":"ED_BUF2",
+"51":"ED_BUF3",
+"52":"ED_BUF4",
+"53":"ED_BUF5",
+"54":"ED_BUF6",
+"55":"ED_BUF7",
+"56":"ED_BUF8",
+"57":"ED_BUF9",
+"187":"ED_CHAREDIT",
+"188":"ED_BUFDEC",
+"190":"ED_BUFINC",
+"191":"ED_BUFLOCK",
+"112":"ED_FLOOR",
+"113":"ED_BLOCKING",
+"114":"ED_STATTYPES",
+"115":"ED_TEXT",
+"118":"ED_HEXTEXT",
+"119":"ED_COLOR",
+"120":"ED_SWITCHCOLOR",
+"121":"ED_COLOR2",
+"B":"ED_BOARD",
+"Ctrl+T":"ED_TILEINFO",
+"A":"ED_ACQUIRE",
+"Ctrl+X":"ED_CUT",
+"Ctrl+C":"ED_COPY",
+"Shift+39":"ED_SELRIGHT",
+"Shift+40":"ED_SELDOWN",
+"Ctrl+V":"ED_PASTE",
+"Ctrl+S":"ED_STATELEM",
+"Ctrl+R":"ED_REGION",
+"Ctrl+E":"ED_AESTHETIC",
+"Shift+C":"ED_COLOR2",
+"Shift+49":"ED_HELPEDITOR",
+"V":"ED_BLINK",
+"X":"ED_FLOODSEL",
+"W":"ED_WORLD",
+"T":"ED_TRANSFER",
+"S":"ED_SAVE",
+"R":"ED_RUN",
+"Q":"ED_QUIT",
+"P":"ED_PATTERN",
+"Shift+P":"ED_REVPATTERN",
+"O":"ED_OBJEDIT",
+"M":"ED_SHOWULTRA1",
+"N":"ED_NEW",
+"Z":"ED_CLEAR",
+"L":"ED_LOAD",
+"Shift+X":"ED_SELSIMILAR",
+"K":"ED_KOLOR",
+"Shift+K":"ED_BIT7TOGGLE",
+"Ctrl+K":"ED_KOLOR",
+"Ctrl+A":"ED_TEXTSPECCHAR",
+" ":"ED_PLACE",
+"I":"ED_INFO",
+"H":"ED_HELP",
+"Shift+37":"ED_SELLEFT",
+"Ctrl+O":"ED_HIDDENOBJ",
+"F":"ED_FILL",
+"Shift+9":"ED_DRAWINGCYCLE",
+"E":"ED_SWAPED",
+"G":"ED_GRADIENT",
+"D":"ED_DEFAULTCOLOR",
+"Shift+38":"ED_SELUP",
+"Shift+F":"ED_RANDOMFILL",
+"C":"ED_COLOR"},
+"GuiWidth":20,
+"MouseInput":{
+"ED_OBJEDIT":[1,4,20,1],
+"ED_SWAPED":[1,5,20,1],
+"ED_CHAREDIT":[1,6,20,1],
+"ED_SHOWULTRA1":[1,7,20,1],
+"ED_COPY":[1,10,20,1],
+"ED_CUT":[1,11,20,1],
+"ED_PASTE":[1,12,20,1],
+"ED_HIDDENOBJ":[1,13,20,1],
+"ED_TILEINFO":[1,14,20,1],
+"ED_STATELEM":[1,15,20,1],
+"ED_REGION":[1,16,20,1]
+},
+"Label":{
+"FILEMESSAGE":[1,2,20,31],
+"COLORCURSOR2":[10,25,8,31],
+"ACQUIREMODE":[19,22,1,30],
+"DEFCOLORMODE":[19,24,1,30],
+"FILEENTRY":[3,3,12,15],
+"CONFMESSAGE":[1,2,20,31],
+"TOAST1":[-59,25,60,15],
+"COLORCURSOR1":[2,23,16,31],
+"BUFLOCK":[8,22,1,12],
+"BBUFFER":[9,22,10,15],
+"PATTERNCURSOR":[2,21,17,31]},
+"GuiLocX":61,
+"OverallSizeX":80,
+"OverallSizeY":25,
+"GuiHeight":25},
+"DEBUGMENU":{"Viewport":[1,26,60,25],"Color":[27,3,59,6,27,2,59,1,27,2,59,6,27,2,59,1,27,2,59,3,27,2,59,3,27,5,30,1,78,7,30,1,78,3,30,1,78,26,30,3,18,7,27,2,43,1,18,8,27,2,43,1,18,7,27,2,18,6,27,1,30,1,126,2,78,2,126,2,78,2,126,2,78,2,126,3,78,8,126,2,78,14,30,3,27,36,30,1,126,3,78,6,126,2,78,6,126,2,78,2,126,5,78,6,126,2,78,6,126,3,27,35,30,5,78,37,30,3,27,3,19,9,27,2,19,9,27,5,19,2,27,4,30,1,78,45,27,33,30,47,27,30,30,50,27,4,26,15,31,10,27,1,30,1,27,2,31,6,26,22,30,1,26,17,30,1,27,6,31,1,27,10,31,12,27,1,30,1,27,2,31,28,30,1,31,17,30,1,27,2,31,2,48,3,31,20,27,3,30,1,27,1,31,3,48,3,31,13,112,3,31,7,30,1,31,3,48,3,31,11,30,1,27,3,31,14,27,1,31,6,27,6,30,1,31,30,30,1,31,17,30,1,27,4,112,3,27,1,31,8,27,5,31,4,27,4,31,1,30,1,31,4,112,3,31,13,48,3,31,7,30,1,31,17,30,1,27,28,31,2,30,1,31,30,30,1,31,17,30,1,27,27,31,3,30,1,31,30,30,1,31,17,30,1,14,79,30,1,11,2,10,25,15,3,14,1,15,8,10,7,15,15,14,1,15,1,14,8,15,8,30,1,11,2,15,25,10,1,15,2,14,1,15,30,14,1,15,17,30,1,11,2,15,2,48,3,15,21,10,1,15,1,14,1,15,4,48,3,15,23,14,1,10,11,15,6,30,1,11,2,15,28,14,1,15,30,14,1,15,2,10,9,15,6,30,1,11,2,15,2,112,3,15,23,14,1,15,4,112,3,15,23,14,1,11,17,30,1,11,2,15,28,14,1,15,30,14,1,15,17,30,1,11,2,15,2,48,3,15,23,14,1,15,30,14,1,15,2,11,9,15,6,30,1,11,2,15,28,14,1,15,30,14,1,15,17,30,1,95,80,79,80],"KeyInput":{"49":"EVENT_ACHIEVEMENTS","W":"EVENT_LOADWAD","G":"EVENT_EDITGUI","A":"EVENT_ABOUTZZTULTRA","V":"EVENT_VISITWEBSITE","I":"EVENT_LOADZIP","S":"EVENT_LOADSZT","P":"EVENT_LOADFEATURED","E":"EVENT_EDITOR","Z":"EVENT_LOADZZT","O":"EVENT_OPTIONS","D":"EVENT_DOCUMENTATION","C":"EVENT_PWADS","M":"EVENT_LOADDEP"},"GuiLocX":1,"GuiLocY":1,"GuiHeight":25,"OverallSizeX":80,"OverallSizeY":25,"BIT7ATTR":1,"MouseInput":{"EVENT_LOADSZT":[35,12,15,1],"EVENT_LOADZZT":[35,10,15,1],"EVENT_LOADFEATURED":[4,10,22,1],"EVENT_LOADWAD":[51,10,9,1],"EVENT_EDITOR":[35,18,18,1],"EVENT_VISITWEBSITE":[4,20,25,1],"EVENT_LOADZIP":[51,12,9,1],"EVENT_OPTIONS":[65,10,13,1],"EVENT_LOADDEP":[4,12,24,1],"EVENT_EDITGUI":[35,20,18,1],"EVENT_DOCUMENTATION":[4,22,19,1],"EVENT_ABOUTZZTULTRA":[4,18,21,1]},"Label":{"BUILDTEXT":[65,19,15,10],"FILEMESSAGE":[1,4,20,31],"FILEENTRY":[3,6,12,15],"CUSTOMTEXT":[14,10,14,30],"VERSIONTEXT":[73,16,5,14],"SPECIALTEXT":[65,22,15,11],"LOADINGANIM":[18,11,5,31],"LOADINGLOC":[11,11,7,31],"CONFMESSAGE":[30,23,20,31],"TOAST1":[1,25,80,15]},"Use40Column":0,"GuiWidth":80,"SCANLINES":2,"Text":"\n   ßßßßßßÛÛß  ßßßßßßÛÛß  ßßßÛÛßßß    °°Û°°ÛÛ°°ÛÛ°°ÛÛÛ°°°°°°°°ÛÛ°°°°°ÛÛÛÛ°°°°ÛÛÛÛ\nÜÜÜÜÜÜÜÜÛßÜÜÜÜÜÜÜÜÜÛßÜÜÜÜÜÜÜÛÛÜÜÜÜÜÜ°°ÛÛ°°ÛÛ°°ÛÛ°°ÛÛÛÜÜÜ°°ÜÜÜÛÛ°°ÜÜ°°ÛÛ°°ÜÜ°°ÛÛÛ\n     ÜÛß        ÜÛß         ÛÛ     °°ÛÛÛ°°ßß°°ÛÛ°°ÛÛÛÛÛÛ°°ÛÛÛÛÛ°°°°°ÜÛÛ°°°°°°ÛÛÛ\n   ÜÛÛÜÜÜÜÜÜ  ÜÛÛÜÜÜÜÜÜ     ÛÛ    °°ÛÛÛÛÜ°°°°ÜÛÛ°°°°°°ÛÛ°°ÛÛÛÛÛ°°ÜÜ°°ÛÛ°°ÜÜ°°ÛÛÛ\n   ßßßßßßßßß  ßßßßßßßßß     ßß   °°ÛÛÛÛÛÛÜÜÜÜÛÛÛÜÜÜÜÜÜÛÛÜÜÛÛÛÛÛÜÜÛÛÜÜÛÛÜÜÛÛÜÜÛÛÛ\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n°°ßßßßßßßßßßßßßßßßßßßßßßßßßßßßºßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßºßßßßßßßßßßßßßßßßßÛ\n°°  FEATURED WORLDS           º        EXTERNAL WORLDS       º  CONFIGURATION  Û\n°°    \u0000                       º                              º                 Û\n°°   P  Play                  º     Z  ZZT          W  WAD   º    O  Options   Û\n°°                            º                              º                 Û\n°°   M  More ...              º     S  Super ZZT    I  ZIP   º                 Û\n°°                            º                              º                 Û\n°°                            º                              º                 Û\nßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßºßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßºßßßßßßßßßßßßßßßßßÛ\n°°  INFORMATION               º        EDITORS               º  Version        Û\n°°                            º                              º                 Û\n°°   A  About ZZT Ultra       º     E  World Editor          º                 Û\n°°                            º                              º  AS3 build      Û\n°°   V  Visit Official Site   º     G  GUI Editor            º                 Û\n°°                            º                              º                 Û\n°°   D  Documentation         º                              º  Prototype      Û\n°°                            º                              º                 Û\n                       ZZT Ultra created by Christopher Allen                   \n                      Original ZZT concept by Tim Sweeney                       \n","PALETTE":[[0,0,0],[0,0,170],[0,170,0],[0,170,170],[170,0,0],[170,0,170],[170,85,0],[170,170,170],[85,85,85],[85,85,255],[85,255,85],[85,255,255],[255,85,85],[255,85,255],[255,255,85],[255,255,255]]},
+"FOREST":{"Label":{"CONFMESSAGE":[20,25,40,79],"TOAST1":[1,1,60,15],"LOADINGLOC":[13,25,7,31],"LOADINGANIM":[20,25,5,31]},"Color":[7,14,6,1,38,1,6,1,7,7,2,4,10,1,2,1,7,5,15,2,14,2,13,2,12,2,11,1,7,16,2,1,42,1,98,1,2,1,42,1,98,1,2,1,98,1,42,2,2,2,7,7,8,1,7,5,6,1,7,4,6,1,7,1,2,1,38,5,2,1,7,4,2,1,10,2,38,2,10,2,2,2,7,7,1,3,7,9,2,2,38,2,42,1,2,2,7,3,2,2,42,2,98,1,6,1,42,2,2,2,7,6,8,3,7,5,6,1,7,3,6,2,2,1,38,7,2,1,7,4,2,1,10,1,38,2,10,2,38,2,2,1,7,2,6,2,7,1,1,1,27,3,1,1,7,8,2,2,98,1,2,1,98,1,42,1,2,1,7,4,2,3,42,1,6,2,2,2,7,9,8,1,7,3,6,4,7,2,6,1,7,2,2,1,38,2,2,1,38,1,2,3,7,5,2,1,10,1,6,1,2,1,38,2,10,1,7,4,2,1,7,2,1,3,7,10,2,2,38,1,2,1,7,10,6,2,7,10,8,2,7,5,6,2,7,2,6,1,7,3,2,1,38,2,2,1,7,2,2,1,7,6,2,1,6,2,38,1,2,1,1,1,7,3,2,2,7,17,6,2,7,10,6,7,2,1,7,4,8,2,10,2,7,4,6,4,7,4,6,1,7,3,2,1,42,2,2,1,7,5,6,2,22,1,23,2,1,1,7,1,2,4,7,16,6,2,7,10,6,2,7,10,8,2,10,2,7,1,6,1,7,3,6,2,7,5,6,2,7,1,2,1,42,1,38,2,42,1,2,1,7,2,6,5,1,1,7,2,2,1,6,1,38,1,2,2,7,7,2,4,7,5,6,3,7,8,6,4,7,9,8,2,10,1,7,6,6,2,7,5,6,1,118,1,7,1,6,1,2,1,38,2,2,1,7,3,118,3,7,12,118,4,7,1,2,1,6,1,2,1,7,5,118,3,7,9,118,2,6,2,7,8,8,3,7,8,118,2,7,8,118,1,7,1,118,1,7,46,118,2,7,7,118,1,7,1,118,1,7,1,10,4,8,1,10,26,15,2,4,43,10,4,10,32,15,3,4,42,10,3,10,2,106,2,103,1,111,1,103,1,106,2,110,9,106,13,10,1,15,3,4,5,10,1,4,4,10,1,4,3,10,1,4,4,10,1,4,5,10,1,4,3,7,1,10,4,4,5,10,2,4,1,10,3,10,2,106,2,103,1,111,1,103,1,106,2,110,20,106,2,10,1,15,2,4,43,10,3,10,2,106,2,103,1,111,1,103,1,106,2,110,12,106,10,10,1,15,2,4,43,10,3,10,2,106,2,103,1,111,1,103,1,106,2,110,4,106,18,10,1,15,2,4,1,10,1,4,41,10,3,10,2,106,29,10,1,15,2,10,46,10,2,106,2,103,1,111,1,103,1,106,2,110,10,106,12,10,1,15,2,10,46,10,2,106,2,103,1,111,1,103,1,106,2,110,11,106,11,10,1,15,2,10,46,10,1,74,1,106,29,10,1,15,2,10,46,10,32,15,1,10,47,12,79,10,1,12,1,28,31,12,1,26,45,12,1,76,1,12,1,31,4,28,28,26,17,31,28,12,1,76,1,12,1,31,5,28,25,31,1,12,1,31,3,26,38,31,4,12,1,76,1,12,1,76,79],"Text":"\n              Ü²Ü       °±²±°°     S U P E R                ßúßÜùßÛßùøß         \n     Ü    Ý ÜßÜßÜ²Ü    °°±ÞÝ°±°±       ÜÜÜ          ÜúøÜÛÜ    ÞúøßÛùøÝ          \n     ³   ÜÛÞ±°Üßß°±Ý    °±ÞÝ±°ÜÄ°     ÛZZTÛ        ÞÛßÛÞßß     ßßùÛÛß           \n   ÄÄÛ   Ý  ßÞÝÛ²ß       °°ÛÛÜÝ°    Ü  ßßß          õÛÜÛ          ÛÝ            \n     ßÛ  Û   ßÝ²Ý  Ü      °ÛÞÝ°Ü   °±                 ÛÝ          ÛÛÜÜÜÄÄø      \n      ÞÝÛÝ    Û   ÞùøÜ     ÛÛÝøø  °²°ß                ÛÝ          ÛÛ            \n       ÛÛ     ÛÝ ÞøÝÜúÝ   ÛÛÛÛß  °ÛßÛ°       Û²ß      ÛÛ ÜÜÜÜ    ÞÛÛ            \n       ÛÛ    ÜÛß  ÞßÜÛ  ÜßßßÛÛÛÛÛÛÛÛÛÛÛÛßßßßÜ°Û±   ÜÜÞßßÛÛÛÛÛÛÛÜ ßÞÛÝ           \nÛÜÜÜÜÜÛÛßßÜÛÛÛÛÛÛÜßÜßÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛßßÜÜÜÜÜÜÜßÜßÜ\n                                                                                \n ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ   Ü   Ü  ÜÜ  Ü   Ü  Ü Ü   Ü ÜÜÜÜ     ÜÜÜÜ      \n Û  [P]  Play Game             Û   Û   Û Û  Û Û   Û  Û ÛßÜßÛ ÛÜÜ     ÛÜÜÜ   ß   \n Û  [R]  Restore a saved game  Û    ßÜß  ßÜÜß ÛÜÜ ßÜÜß Û   Û ÛÜÜÜ    ßÜÜÜß  ß   \n Û  [I]  Introduction          Û                                                \n Û  [Q]  Quit                  Û   Ò                                            \n ÛÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÛ   º  ÖÄ· ÖÄÄ ÄÒÄ                               \n Û  [W]  World Menu            Û   º  º º ÓÄ·  º    ÒÄÄÄ                        \n Û  [H]  High Scores           Û   ÓÄÄÓÄ½ ÄÄ½  Ð    ÇÄÄ ÖÄ· ÒÄ¿ÖÄ· ÖÄÄ Ä×Ä      \n ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ                    º   º º º  ÇÄ½ ÓÄ·  º       \n                                                    Ð   ÓÄ½ Ð  ÓÄÄ ÄÄ½  ÓÄ      \nÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nÛ Copyright 1991 Epic MegaGames Û        Another MegaAdventure Game           Û \nÛ    10406 Holbrook Drive       Û              by Tim Sweeney                 Û \nÛ     Potomac, MD 20854         Û   With thanks to the Epic MegaGames crew    Û \nßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß \n","GuiHeight":25,"Viewport":[1,26,1,1],"OverallSizeX":80,"GuiLocX":1,"KeyInput":{"27":"EVENT_QUITSZT","R":"EVENT_RESTOREGAME","W":"EVENT_WORLDMENU","I":"EVENT_INTRODUCTION","Q":"EVENT_QUITSZT","P":"EVENT_PLAYGAME","E":"EVENT_EDITOR","O":"EVENT_ORDERING","H":"EVENT_HISCORES"},"MouseInput":{"EVENT_PLAYGAME":[5,12,27,1],"EVENT_HISCORES":[5,18,27,1],"EVENT_RESTOREGAME":[5,13,27,1],"EVENT_WORLDMENU":[5,17,27,1],"EVENT_QUITSZT":[5,15,27,1],"EVENT_INTRODUCTION":[5,14,27,1]},"OverallSizeY":25,"GuiLocY":1,"Use40Column":0,"GuiWidth":80},
+"PROVING":{"Label":{"CONFMESSAGE":[20,25,40,79],"TOAST1":[1,1,60,15],"LOADINGLOC":[13,25,7,31],"LOADINGANIM":[20,25,5,31]},"Color":[10,2,8,2,120,1,126,3,124,9,125,9,123,9,127,10,126,10,122,11,121,9,120,1,8,4,10,2,8,2,120,1,126,3,14,1,12,4,124,5,125,9,123,9,127,9,15,1,14,6,126,2,14,2,10,5,122,2,10,4,9,4,121,4,120,1,8,4,10,2,8,2,120,1,110,2,14,2,12,10,13,9,11,9,15,10,14,10,10,11,9,7,120,1,8,4,10,2,8,2,120,1,110,2,14,2,110,1,76,10,93,9,59,9,127,10,110,1,14,2,110,7,10,2,42,6,10,2,42,1,25,6,120,1,8,4,10,2,8,2,120,1,110,3,14,3,12,1,76,2,12,2,76,2,12,2,76,1,13,5,93,3,11,4,59,2,11,4,15,1,127,8,14,2,110,7,14,1,10,1,42,7,10,2,42,2,25,5,120,1,8,4,10,2,8,2,120,1,110,6,14,1,12,1,76,1,12,2,76,2,12,2,76,1,13,2,93,2,13,2,93,1,13,2,59,2,11,2,59,1,11,2,59,2,11,1,15,1,127,6,15,2,127,1,110,6,14,2,110,2,42,6,10,2,42,3,25,4,120,1,8,4,10,2,8,2,120,1,110,6,14,2,76,1,12,2,76,2,12,2,76,1,12,1,13,1,93,2,13,2,93,1,13,2,5,1,3,4,11,2,3,4,127,5,15,2,127,3,110,4,14,2,110,4,42,5,10,2,42,4,25,3,120,1,8,4,10,2,8,2,120,1,6,2,14,5,6,2,4,1,12,5,4,1,12,2,13,3,5,3,13,3,11,1,3,2,11,2,3,5,7,3,15,7,6,2,14,7,2,5,10,2,2,4,31,3,120,1,8,4,10,2,8,2,120,1,6,9,4,7,12,2,4,1,5,9,3,10,7,9,6,10,2,11,31,2,120,1,8,4,10,4,8,1,10,26,15,4,10,1,15,1,10,43,10,32,15,3,10,1,15,2,10,42,10,2,74,2,71,1,79,1,71,1,74,2,78,9,74,13,10,1,15,4,10,44,10,2,74,2,71,1,79,1,71,1,74,2,78,20,74,2,10,1,15,2,1,43,10,3,10,2,74,2,71,1,79,1,71,1,74,2,78,12,74,10,10,1,15,2,28,16,31,1,28,1,31,3,28,1,31,1,28,3,31,1,28,2,31,2,28,1,31,1,28,4,31,6,10,3,10,2,74,2,71,1,79,1,71,1,74,2,78,4,74,18,10,1,15,2,28,6,31,1,28,4,31,1,28,1,31,2,28,1,31,1,28,1,31,3,28,1,31,2,28,1,31,2,28,1,31,1,28,3,31,1,28,1,31,1,28,2,31,6,10,3,10,2,74,29,10,1,15,2,28,8,31,1,28,2,31,1,28,4,31,2,28,3,31,2,28,3,31,1,28,1,31,1,28,1,31,1,28,1,31,1,28,5,31,5,10,3,10,2,74,2,71,1,79,1,71,1,74,2,78,10,74,12,10,1,15,2,28,2,27,3,28,1,27,3,31,3,27,2,31,2,27,1,31,2,27,1,31,1,27,1,31,3,27,1,31,1,27,4,31,2,27,2,31,4,29,1,93,1,21,1,31,1,10,3,10,2,74,2,71,1,79,1,71,1,74,2,78,11,74,11,10,1,15,2,28,1,27,1,28,4,27,1,31,2,27,1,31,1,27,1,31,2,27,1,31,1,27,1,31,2,27,1,31,1,27,5,31,1,27,1,31,2,27,1,31,1,27,1,31,5,29,2,93,1,21,1,31,1,10,3,10,1,74,30,10,1,15,2,28,1,27,1,28,1,27,2,28,1,27,3,31,2,27,1,31,2,27,1,31,1,27,1,31,2,27,1,31,1,27,1,31,2,27,2,31,1,27,1,31,2,27,1,31,1,27,4,31,2,29,1,21,1,31,3,10,3,10,32,15,2,28,1,27,3,28,2,27,1,28,1,27,2,31,1,27,3,31,3,27,2,31,2,27,1,31,3,27,1,31,1,27,3,31,2,27,4,31,2,29,1,21,1,31,3,10,3,12,79,10,1,12,1,28,31,12,1,26,45,12,1,76,1,12,1,31,4,28,28,26,17,31,28,12,1,76,1,12,1,31,5,28,25,31,1,12,1,31,3,26,38,31,4,12,1,76,1,12,1,76,79],"Text":"\n  ÜÛÝ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±ÞÛÜ  \n   ßÝ²²²úúúúú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úúúúúúú²²úúúúúúú²²úúúúúúúú²²²²Þß   \n  ÜÛÝÛÛúúÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛúúÛÛÛÛÛúúÛÛÛÛÛÛÛÞÛÜ  \n   ßÝ²²úú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úú²²²²²²²úú²²²²²²úú²²²²²²²Þß   \n  ÜÛÝ±±±úúúú±±úú±±úú±úúúúú±±±úúúú±±úúúúú±±±±±±±±úú±±±±±±±úú±±±±±±±úú±±±±±±±ÞÛÜ  \n   ßÝ°°°°°°úú°úú°°úú°úú°°úú°úú°°úú°úú°°úú°°°°°°úú°°°°°°°úú°°°°°°°°úú°°°°°°°Þß   \n  ÜÛÝ      úú úú  úú úú  úú úúÜÜÜÛÛúúÛÛÛÛ     úú       úú         úú       ÞÛÜ  \n   ßÝ²²úúúúú²²²úúúúú²úúúúú²²²úúúú²²úú²²²²²²²²úúúúúúú²²úúúúúúú²²²²²úú²²²²   Þß   \n  ÜÛÝ±±±±±±±±±±±±±±±±úú±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±  ÞÛÜ  \n                                   Ü   Ü  ÜÜ  Ü   Ü  Ü Ü   Ü ÜÜÜÜ    ÜÜÜÜÜ      \n ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ   Û   Û Û  Û Û   Û  Û ÛßÜßÛ ÛÜÜ     ÛÜÜÜ   ß   \n Û  [P]  Play Game             Û    ßÜß  ßÜÜß ÛÜÜ ßÜÜß Û   Û ÛÜÜÜ    ÜÜÜÜß  ß   \n Û  [R]  Restore a saved game  Û  ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ   \n Û  [I]  Introduction          Û    ÛßßÜ ÛßßÜ ÜßßÜ Û   Û ßÛß ÛÜ  Û ÜßßÜ         \n Û  [Q]  Quit                  Û    ÛÜÜß ÛÜÜß Û  Û Û   Û  Û  Û ßÜÛ Û ÜÜ         \n ÛÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÛ    Û    Û ÛÜ ßÜÜß  ßÜß  ÜÛÜ Û   Û ßÜÜÛ         \n Û  [W]  World Menu            Û    ÜÜÜ ÜÜÜ   ÜÜ  Ü  Ü Ü   Ü ÜÜÜ   ÜÜ    ÜÜÛ    \n Û  [H]  High Scores           Û   Û    Û  Û Û  Û Û  Û ÛßÜ Û Û  Û Û     ÞÛßÝ    \n ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ   Û ßÛ ÛßÛ  Û  Û Û  Û Û  ßÛ Û  Û  ßßÜ  ßß      \n                                    ßß  ß ßß  ßß   ßß  ß   ß ßßß  ßßß   ßß      \nÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nÛ Copyright 1991 Epic MegaGames Û        Another MegaAdventure Game           Û \nÛ    10406 Holbrook Drive       Û              by Tim Sweeney                 Û \nÛ     Potomac, MD 20854         Û   With thanks to the Epic MegaGames crew    Û \nßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß \n","GuiHeight":25,"Viewport":[1,26,1,1],"OverallSizeX":80,"GuiLocX":1,"KeyInput":{"27":"EVENT_QUITSZT","R":"EVENT_RESTOREGAME","W":"EVENT_WORLDMENU","I":"EVENT_INTRODUCTION","Q":"EVENT_QUITSZT","P":"EVENT_PLAYGAME","E":"EVENT_EDITOR","O":"EVENT_ORDERING","H":"EVENT_HISCORES"},"MouseInput":{"EVENT_PLAYGAME":[5,12,27,1],"EVENT_HISCORES":[5,18,27,1],"EVENT_RESTOREGAME":[5,13,27,1],"EVENT_WORLDMENU":[5,17,27,1],"EVENT_QUITSZT":[5,15,27,1],"EVENT_INTRODUCTION":[5,14,27,1]},"OverallSizeY":25,"GuiLocY":1,"Use40Column":0,"GuiWidth":80},
+"MONSTER":{"Label":{"CONFMESSAGE":[20,25,40,79],"TOAST1":[1,1,60,15],"LOADINGLOC":[13,25,7,31],"LOADINGANIM":[20,25,5,31]},"Color":[126,3,124,11,125,10,123,11,127,11,126,11,122,12,121,11,126,4,124,11,125,10,123,11,127,11,126,11,122,12,121,10,126,4,14,1,12,5,124,6,125,10,123,11,127,10,15,1,14,7,126,2,14,2,10,6,122,2,10,4,9,4,121,5,126,3,14,2,126,1,124,11,125,10,123,11,127,11,126,3,14,2,126,6,122,2,10,2,122,6,10,2,121,8,110,3,14,2,110,2,76,11,93,10,59,11,127,11,110,1,14,2,110,8,10,2,42,7,10,2,42,1,25,7,110,4,14,4,12,1,76,3,12,2,76,2,12,2,76,1,93,1,13,5,93,4,11,4,59,3,11,4,15,1,127,9,15,1,14,1,110,8,14,2,42,8,10,2,42,2,25,6,110,8,14,1,12,1,76,2,12,2,76,2,12,2,76,2,13,2,93,2,13,2,93,2,13,2,59,2,11,2,59,2,11,2,59,2,11,1,15,1,127,7,15,2,127,1,110,7,14,2,110,2,42,7,10,2,42,3,25,5,6,8,14,2,4,2,12,2,4,2,12,2,4,2,12,1,13,1,5,2,13,2,5,2,13,2,5,1,3,5,11,2,3,4,7,6,15,2,7,3,6,5,14,2,6,4,2,6,10,2,2,4,1,4,6,3,14,6,6,2,4,2,12,5,4,2,12,2,13,3,5,4,13,3,11,1,3,3,11,2,3,5,7,4,15,8,6,2,14,8,2,5,10,2,2,5,1,3,6,12,4,8,12,2,5,10,3,12,7,11,6,11,2,12,1,2,6,13,4,9,5,11,3,12,7,11,6,11,2,12,1,1,10,32,15,3,10,45,10,2,14,2,7,1,15,1,7,1,10,2,14,20,10,3,15,1,10,47,10,2,14,2,7,1,15,1,7,1,10,2,14,20,10,3,15,2,10,46,10,2,14,2,7,1,15,1,7,1,10,2,14,12,10,11,15,2,10,46,10,2,14,2,7,1,15,1,7,1,14,24,10,1,15,2,10,2,12,3,10,1,12,3,10,13,12,1,10,3,12,1,10,3,12,2,10,1,6,5,10,8,10,32,15,2,10,2,12,1,10,1,12,3,10,1,12,1,10,1,12,3,10,1,12,3,10,1,12,2,10,1,12,3,10,1,12,3,10,1,12,1,10,7,6,8,10,1,10,2,14,2,7,1,15,1,7,1,10,2,14,22,10,1,15,2,10,2,12,1,10,1,12,5,10,1,12,3,10,1,12,1,10,1,12,1,10,1,12,2,10,2,12,1,10,2,12,3,10,1,12,1,10,2,14,4,6,4,10,6,10,1,74,1,10,2,7,1,15,1,7,1,10,2,14,11,10,12,15,2,10,2,4,28,10,3,14,2,10,2,14,3,10,1,14,3,10,2,10,32,15,2,10,32,14,4,10,1,14,3,10,1,14,3,10,2,12,79,10,1,12,1,28,31,12,1,26,45,12,1,76,1,12,1,31,4,28,28,26,9,31,14,26,2,31,20,12,1,76,1,12,1,31,5,28,25,31,1,12,1,31,3,26,38,31,4,12,1,76,1,12,1,76,79],"Text":"\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n²²²²úúúúúú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úúúúúúúú²²úúúúúúúú²²úúúúúúúú²²²²²\nÛÛÛúúÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛ\n²²²úú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úú²²²²²²²²úú²²²²²²²úú²²²²²²²²\n±±±±úúúúú±±±úú±±úú±±úúúúú±±±±úúúú±±±úúúúú±±±±±±±±±úú±±±±±±±±úú±±±±±±±±úú±±±±±±±±\n°°°°°°°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°°°°°°úú°°°°°°°°úú°°°°°°°°°úú°°°°°°°°\nÛÛÛÛÛÛÛÛúúÛÛúúÛÛúúÛÛúúÛÛúúÛÛúúÜÜÜÛÛÛúúÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛ\n²²²úúúúúú²²²²úúúúú²²úúúúú²²²²úúúú²²²úú²²²²²²²²²úúúúúúúú²²úúúúúúúú²²²²²úú²²²²²²²²\n±±±±±±±±±±±±±±±±±±±±úú±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ   Ü   Ü  ÜÜ  Ü   Ü  Ü Ü   Ü ÜÜÜÜ    ÜÜÜÜÜ      \n Û  [P]  Play Game             Û   Û   Û Û  Û Û   Û  Û ÛßÜßÛ ÛÜÜ        Üß  ß   \n Û  [R]  Restore a saved game  Û    ßÜß  ßÜÜß ÛÜÜ ßÜÜß Û   Û ÛÜÜÜ      Û    ß   \n Û  [I]  Introduction          Û                                                \n Û  [Q]  Quit                  Û    ÛßÛ ÛßÛ             Ü   Ü   ÜÜ ÜÜÜÜÜ        \n ÛÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÛ    Û ßßß Û ÛßÛ ÛßÜ Ûß ßÛß ÛÜÛ Û       ÛÜÜÜÜÜÜÜ \n Û  [W]  World Menu            Û    Û ÜÜÜÜÛ ÛÜÛ Û Û ÜÛ  Û  ßÜÜ Û  ßßßÛ          \n Û  [H]  High Scores           Û    ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ   Üß  ÛßÛ ÛßÛ  \n ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ                                  ÛÜÜÜ ÛÜÛ ÛÜÛ  \nÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nÛ Copyright 1991 Epic MegaGames Û        Another MegaAdventure Game           Û \nÛ    10406 Holbrook Drive       Û      by Allen Pilgrim & Tim Sweeney         Û \nÛ     Potomac, MD 20854         Û   With thanks to the Epic MegaGames crew    Û \nßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß \n","GuiHeight":25,"Viewport":[1,26,1,1],"OverallSizeX":80,"GuiLocX":1,"KeyInput":{"27":"EVENT_QUITSZT","R":"EVENT_RESTOREGAME","W":"EVENT_WORLDMENU","I":"EVENT_INTRODUCTION","Q":"EVENT_QUITSZT","P":"EVENT_PLAYGAME","E":"EVENT_EDITOR","O":"EVENT_ORDERING","H":"EVENT_HISCORES"},"MouseInput":{"EVENT_PLAYGAME":[5,13,27,1],"EVENT_HISCORES":[5,19,27,1],"EVENT_RESTOREGAME":[5,14,27,1],"EVENT_WORLDMENU":[5,18,27,1],"EVENT_QUITSZT":[5,16,27,1],"EVENT_INTRODUCTION":[5,15,27,1]},"OverallSizeY":25,"GuiLocY":1,"Use40Column":0,"GuiWidth":80},
+"CUSTOMSZT":{"Label":{"CONFMESSAGE":[20,25,40,79],"TOAST1":[1,1,60,15],"LOADINGLOC":[13,25,7,31],"LOADINGANIM":[20,25,5,31],"CUSTOMTEXT":[63,18,13,14]},"Color":[126,3,124,11,125,10,123,11,127,11,126,11,122,12,121,11,126,4,124,11,125,10,123,11,127,11,126,11,122,12,121,10,126,4,14,1,12,5,124,6,125,10,123,11,127,10,15,1,14,7,126,2,14,2,10,6,122,2,10,4,9,4,121,5,126,3,14,2,126,1,124,11,125,10,123,11,127,11,126,3,14,2,126,6,122,2,10,2,122,6,10,2,121,8,110,3,14,2,110,2,76,11,93,10,59,11,127,11,110,1,14,2,110,8,10,2,42,7,10,2,42,1,25,7,110,4,14,4,12,1,76,3,12,2,76,2,12,2,76,1,93,1,13,5,93,4,11,4,59,3,11,4,15,1,127,9,15,1,14,1,110,8,14,2,42,8,10,2,42,2,25,6,110,8,14,1,12,1,76,2,12,2,76,2,12,2,76,2,13,2,93,2,13,2,93,2,13,2,59,2,11,2,59,2,11,2,59,2,11,1,15,1,127,7,15,2,127,1,110,7,14,2,110,2,42,7,10,2,42,3,25,5,6,8,14,2,4,2,12,2,4,2,12,2,4,2,12,1,13,1,5,2,13,2,5,2,13,2,5,1,3,5,11,2,3,4,7,6,15,2,7,3,6,5,14,2,6,4,2,6,10,2,2,4,1,4,6,3,14,6,6,2,4,2,12,5,4,2,12,2,13,3,5,4,13,3,11,1,3,3,11,2,3,5,7,4,15,8,6,2,14,8,2,5,10,2,2,5,1,3,6,12,4,8,12,2,5,10,3,12,7,11,6,11,2,12,1,2,6,13,4,9,5,11,3,12,7,11,6,11,2,12,1,1,10,32,15,2,10,46,10,2,14,2,7,1,15,1,7,1,10,2,14,20,10,3,15,1,10,47,10,2,14,2,7,1,15,1,7,1,10,2,14,20,10,3,15,2,10,46,10,2,14,2,7,1,15,1,7,1,10,2,14,12,10,11,15,2,10,46,10,2,14,2,7,1,15,1,7,1,14,24,10,1,15,2,10,46,10,32,15,2,10,1,12,16,10,1,12,8,14,17,10,3,10,2,14,2,7,1,15,1,7,1,10,2,14,22,10,1,15,2,10,1,12,12,10,1,12,3,10,1,12,5,10,1,12,2,14,1,12,12,6,1,10,2,14,1,10,3,10,1,74,1,10,2,7,1,15,1,7,1,10,2,14,11,10,12,15,2,10,1,12,25,14,17,12,1,10,2,10,32,15,2,12,7,10,22,12,15,10,2,12,79,10,1,12,1,28,31,12,1,26,45,12,1,76,1,12,1,31,4,28,28,26,9,31,14,26,2,31,20,12,1,76,1,12,1,31,5,28,25,31,1,12,1,31,3,26,38,31,4,12,1,76,1,12,1,76,79],"Text":"\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n²²²²úúúúúú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úúúúúúúú²²úúúúúúúú²²úúúúúúúú²²²²²\nÛÛÛúúÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛ\n²²²úú²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²úú²²²²²²²²úú²²²²²²²úú²²²²²²²²\n±±±±úúúúú±±±úú±±úú±±úúúúú±±±±úúúú±±±úúúúú±±±±±±±±±úú±±±±±±±±úú±±±±±±±±úú±±±±±±±±\n°°°°°°°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°úú°°°°°°°úú°°°°°°°°úú°°°°°°°°°úú°°°°°°°°\nÛÛÛÛÛÛÛÛúúÛÛúúÛÛúúÛÛúúÛÛúúÛÛúúÜÜÜÛÛÛúúÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛÛÛúúÛÛÛÛÛÛÛÛ\n²²²úúúúúú²²²²úúúúú²²úúúúú²²²²úúúú²²²úú²²²²²²²²²úúúúúúúú²²úúúúúúúú²²²²²úú²²²²²²²²\n±±±±±±±±±±±±±±±±±±±±úú±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ                                                \n Û  [P]  Play Game             Û   Ûßßßß Û  Û Ûßßßß ßßÛßß ÛßßßÛ ÛÜ ÜÛ           \n Û  [R]  Restore a saved game  Û   Û     Û  Û ßßßßÛ   Û   Û   Û Û Û Û           \n Û  [I]  Introduction          Û   ÛÜÜÜÜ ÛÜÜÛ ÜÜÜÜÛ   Û   ÛÜÜÜÛ Û   Û           \n Û  [Q]  Quit                  Û                                                \n ÛÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÛ   Ûßßßß ÛßßÛ ÛÜ ÜÛ Ûßßßß   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»   \n Û  [W]  World Menu            Û   Û  ßÛ ÛÜÜÛ Û Û Û Ûßßßß   º               º   \n Û  [H]  High Scores           Û   ÛÜÜÜÛ Û  Û Û   Û ÛÜÜÜÜ   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼   \n ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ                                                \nÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nÛ Copyright 1991 Epic MegaGames Û        Another MegaAdventure Game           Û \nÛ    10406 Holbrook Drive       Û      by Allen Pilgrim & Tim Sweeney         Û \nÛ     Potomac, MD 20854         Û   With thanks to the Epic MegaGames crew    Û \nßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß \n","GuiHeight":25,"Viewport":[1,26,1,1],"OverallSizeX":80,"GuiLocX":1,"KeyInput":{"27":"EVENT_QUITSZT","R":"EVENT_RESTOREGAME","W":"EVENT_WORLDMENU","I":"EVENT_INTRODUCTION","Q":"EVENT_QUITSZT","P":"EVENT_PLAYGAME","E":"EVENT_EDITOR","O":"EVENT_ORDERING","H":"EVENT_HISCORES"},"MouseInput":{"EVENT_PLAYGAME":[5,13,27,1],"EVENT_HISCORES":[5,19,27,1],"EVENT_RESTOREGAME":[5,14,27,1],"EVENT_WORLDMENU":[5,18,27,1],"EVENT_QUITSZT":[5,16,27,1],"EVENT_INTRODUCTION":[5,15,27,1]},"OverallSizeY":25,"GuiLocY":1,"Use40Column":0,"GuiWidth":80},
+"ZZTGAME":{"GuiHeight":25,"GuiWidth":20,"KeyInput":{"32":"EVENT_SHOOTLAST","37":"EVENT_LEFT","38":"EVENT_UP","39":"EVENT_RIGHT","40":"EVENT_DOWN","27":"EVENT_QUITGAME","191":"EVENT_CHEAT","Shift+191":"EVENT_CHEAT","B":"EVENT_TOGGLESOUND","T":"EVENT_USETORCH","I":"EVENT_INVENTORY","S":"EVENT_SAVEGAME","H":"EVENT_GAMEHELP","Q":"EVENT_QUITGAME","P":"EVENT_PAUSEGAME","R":"EVENT_RESTOREGAME","C":"EVENT_CONSOLE"},"OverallSizeY":25,"MouseInput":{"EVENT_GAMEHELP":[1,16,20,1],"EVENT_PAUSEGAME":[1,23,20,1],"EVENT_USETORCH":[1,14,20,1],"EVENT_SAVEGAME":[1,21,20,1],"EVENT_QUITGAME":[1,24,20,1],"EVENT_SHOOTLAST":[1,19,20,1],"EVENT_RESTOREGAME":[1,22,20,1],"EVENT_CONSOLE":[1,25,20,1],"EVENT_TOGGLESOUND":[1,15,20,1]},"SCROLL":[-30,12,42,15,0],"Use40Column":0,"Text":"\n     - - - - -      \n        ZZT         \n     - - - - -      \n                    \n                    \n                    \n  \u0002  Health:        \n      Ammo:        \n   Torches:        \n  \u0004    Gems:        \n      Score:        \n  \f    Keys:        \n                    \n   T  Torch         \n   B  Be quiet      \n  \u0000H  Help          \n                    \n        \u0018\u0019\u001a\u001b Move   \n  Shift \u0018\u0019\u001a\u001b\u0000Shoot  \n                    \n  \u0000S  Save game     \n   R  Restore game  \n   P  Pause         \n   Q  Quit          \n   C  Console       \n","Color":[31,20,31,2,112,15,31,3,31,20,31,20,31,20,30,20,31,3,30,17,31,2,27,1,30,17,31,2,22,1,30,17,31,2,27,1,30,17,31,3,30,17,31,3,30,17,30,20,31,2,48,3,31,15,31,2,112,3,31,15,31,2,48,3,31,15,31,20,31,7,48,5,31,8,31,1,112,11,31,8,31,20,31,2,48,3,31,15,31,2,112,3,31,15,31,2,48,3,31,15,31,2,112,3,31,15,31,2,48,3,31,15],"GuiLocY":1,"GuiLocX":61,"Label":{"TIMELABEL":[13,6,7,30],"TIMEVALIDLABEL":[8,6,5,30],"FILEMESSAGE":[1,4,20,31],"KEY0":[20,12,1,24],"EXTRAINVLABEL":[13,13,7,30],"KEY1":[13,12,1,25],"SCORELABEL":[13,11,7,30],"KEY2":[14,12,1,26],"FILEENTRY":[3,5,12,15],"KEY3":[15,12,1,27],"KEY4":[16,12,1,28],"HEALTHLABEL":[13,7,7,30],"LOADINGANIM":[10,5,5,31],"CONFMESSAGE":[1,4,20,31],"KEY6":[18,12,1,30],"PAUSEDMESSAGELOC":[5,5,20,31],"KEY7":[19,12,1,31],"KEY5":[17,12,1,29],"LOADINGLOC":[3,5,7,31],"TORCHESBAR":[16,9,5,22],"TOAST1":[-59,25,60,15],"SOUNDLABEL":[7,15,13,31],"GEMSLABEL":[13,10,7,30],"CHEATLOC":[1,5,20,31],"EXTRAINV":[1,13,12,30,1],"AMMOLABEL":[13,8,7,30],"TORCHESLABEL":[13,9,3,30]},"OverallSizeX":80,"Viewport":[1,1,60,25]},
+"CLASSICZZTGAME":{"SCROLL":[-30,12,42,15,0],"Viewport":[1,1,60,25],"GuiWidth":20,"OverallSizeX":80,"MouseInput":{"EVENT_USETORCH":[1,15,20,1],"EVENT_SAVEGAME":[1,22,20,1],"EVENT_GAMEHELP":[1,17,20,1],"EVENT_QUITGAME":[1,24,20,1],"EVENT_SHOOTLAST":[1,20,20,1],"EVENT_TOGGLESOUND":[1,16,20,1],"EVENT_PAUSEGAME":[1,23,20,1]},"Color":[31,20,31,2,112,15,31,3,31,20,31,20,31,20,30,20,30,20,31,3,30,17,31,2,27,1,30,17,31,2,22,1,30,17,31,2,27,1,30,17,30,20,31,3,30,17,31,20,31,2,112,3,31,15,31,2,48,3,31,15,31,2,112,3,31,15,31,20,31,7,48,5,31,8,31,1,112,11,31,8,31,20,31,2,112,3,31,15,31,2,48,3,31,15,31,2,112,3,31,15,31,20],"Use40Column":0,"KeyInput":{"32":"EVENT_SHOOTLAST","B":"EVENT_TOGGLESOUND","I":"EVENT_INVENTORY","37":"EVENT_LEFT","38":"EVENT_UP","39":"EVENT_RIGHT","H":"EVENT_GAMEHELP","T":"EVENT_USETORCH","C":"EVENT_CONSOLE","P":"EVENT_PAUSEGAME","Q":"EVENT_QUITGAME","R":"EVENT_RESTOREGAME","40":"EVENT_DOWN","27":"EVENT_QUITGAME","S":"EVENT_SAVEGAME","Shift+191":"EVENT_CHEAT","191":"EVENT_CHEAT"},"Text":"\n     - - - - -      \n        ZZT         \n     - - - - -      \n                    \n                    \n                    \n                    \n  \u0002  Health:        \n      Ammo:        \n   Torches:        \n  \u0004    Gems:        \n      Score:        \n  \f    Keys:        \n                    \n   T  Torch         \n   B  Be quiet      \n   H  Help          \n                    \n        \u0018\u0019\u001a\u001b\u0000Move   \n  Shift \u0018\u0019\u001a\u001b Shoot  \n                    \n   S  Save game     \n   P  Pause         \n   Q  Quit          \n                    \n","GuiLocY":1,"GuiHeight":25,"Label":{"GEMSLABEL":[13,11,7,30],"SOUNDLABEL":[7,16,13,31],"KEY6":[18,13,1,30],"TOAST1":[-59,25,60,15],"CHEATLOC":[4,6,11,31],"KEY5":[17,13,1,29],"UNSEENMESSAGE":[24,6,20,31],"FILEMESSAGE":[1,4,20,31],"KEY0":[20,13,1,24],"FILEENTRY":[3,5,12,15],"LOADINGANIM":[10,6,5,31],"KEY2":[14,13,1,26],"KEY1":[13,13,1,25],"KEY4":[16,13,1,28],"CONFMESSAGE":[4,6,20,31],"HEALTHLABEL":[13,8,7,30],"TORCHESBAR":[16,10,5,22],"LOADINGLOC":[3,6,7,31],"PAUSINGMESSAGELOC":[5,6,20,31],"KEY3":[15,13,1,27],"TIMELABEL":[13,7,7,30],"KEY7":[19,13,1,31],"TIMEVALIDLABEL":[8,7,5,30],"SCORELABEL":[13,12,7,30],"AMMOLABEL":[13,9,7,30],"TORCHESLABEL":[13,10,3,30]},"OverallSizeY":25,"GuiLocX":61},
+"CLASSICSZTGAME":{"SCROLL":[20,12,30,19,1],"Viewport":[15,3,24,20],"GuiWidth":40,"OverallSizeX":40,"MouseInput":{"EVENT_RESTOREGAME":[1,10,12,1],"EVENT_SHOOTLAST":[1,6,12,1],"EVENT_GAMEHINT":[1,8,12,1],"EVENT_QUITGAME":[1,12,12,1],"EVENT_TOGGLESOUND":[1,11,12,1],"EVENT_SAVEGAME":[1,9,12,1]},"Color":[29,12,31,28,111,12,31,28,109,12,31,2,15,24,31,2,111,12,31,2,15,24,31,1,23,1,110,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,107,12,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,107,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,29,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,109,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,6,98,1,111,5,31,2,15,24,31,1,23,1,111,6,107,1,111,3,110,1,111,1,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,12,23,1,31,1,127,25,23,1,111,12,31,28,31,40],"Use40Column":1,"KeyInput":{"32":"EVENT_SHOOTLAST","B":"EVENT_TOGGLESOUND","I":"EVENT_INVENTORY","37":"EVENT_LEFT","38":"EVENT_UP","39":"EVENT_RIGHT","H":"EVENT_GAMEHINT","C":"EVENT_CONSOLE","P":"EVENT_PAUSEGAME","Q":"EVENT_QUITGAME","R":"EVENT_RESTOREGAME","40":"EVENT_DOWN","27":"EVENT_QUITGAME","S":"EVENT_SAVEGAME","Shift+191":"EVENT_CHEAT","191":"EVENT_CHEAT"},"Text":"\nÜÜÜÜÜÜÜÜÜÜÜÜ                            \n  Commands   ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nßßßßßßßßßßßß Û                        Û \n \u0018\u0019\u001a\u001b        Û                        ÛÝ\n   Move      Û                        ÛÝ\n Shift+\u0018\u0019\u001a\u001b  Û                        ÛÝ\n   Shoot     Û                        ÛÝ\n H Hint      Û                        ÛÝ\n S Save Game Û                        ÛÝ\n R Restore   Û                        ÛÝ\n B Be Quiet  Û                        ÛÝ\n Q Quit      Û                        ÛÝ\nÜÜÜÜÜÜÜÜÜÜÜÜ Û                        ÛÝ\n   Status    Û                        ÛÝ\nßßßßßßßßßßßß Û                        ÛÝ\nHealth       Û                        ÛÝ\n             Û                        ÛÝ\n Gems \u0004      Û                        ÛÝ\n Ammo       Û                        ÛÝ\n Keys        Û                        ÛÝ\n             Û                        ÛÝ\n Score       Û                        ÛÝ\n             ßßßßßßßßßßßßßßßßßßßßßßßßßßÝ\n                                        \n                                        \n","GuiLocY":1,"GuiHeight":25,"Label":{"GEMSLABEL":[8,18,4,110,1],"KEY0":[7,20,1,104],"STONEAMT":[10,23,2,110,1],"CONFMESSAGE":[16,25,20,31],"FILEENTRY":[13,25,12,15],"KEY7":[10,21,1,111],"KEY4":[11,20,1,108],"KEY2":[9,20,1,106],"TOAST1":[12,24,28,31],"SCORELABEL":[7,22,5,110,1],"HEALTHBAR":[8,16,5,110],"STONELABEL":[2,23,8,111],"UNSEENMESSAGE":[86,25,20,31],"AMMOLABEL":[8,19,4,110,1],"PAUSINGMESSAGELOC":[22,25,20,31],"LOADINGLOC":[13,24,7,31],"KEY1":[8,20,1,105],"KEY5":[8,21,1,109],"SOUNDLABEL":[4,11,8,110],"CHEATLOC":[16,25,11,31],"KEY6":[9,21,1,110],"KEY3":[10,20,1,107],"FILEMESSAGE":[13,24,20,31],"TOAST2":[12,25,28,31],"LOADINGANIM":[20,24,5,31]},"OverallSizeY":25,"GuiLocX":1},
+"SZTGAME":{"GuiHeight":25,"GuiWidth":40,"KeyInput":{"32":"EVENT_SHOOTLAST","37":"EVENT_LEFT","38":"EVENT_UP","39":"EVENT_RIGHT","40":"EVENT_DOWN","27":"EVENT_QUITGAME","191":"EVENT_CHEAT","Shift+191":"EVENT_CHEAT","B":"EVENT_TOGGLESOUND","I":"EVENT_INVENTORY","S":"EVENT_SAVEGAME","H":"EVENT_GAMEHINT","Q":"EVENT_QUITGAME","P":"EVENT_PAUSEGAME","R":"EVENT_RESTOREGAME","C":"EVENT_CONSOLE"},"OverallSizeY":25,"MouseInput":{"EVENT_RESTOREGAME":[1,10,12,1],"EVENT_SAVEGAME":[1,9,12,1],"EVENT_QUITGAME":[1,12,12,1],"EVENT_GAMEHINT":[1,8,12,1],"EVENT_SHOOTLAST":[1,6,12,1],"EVENT_CONSOLE":[1,13,12,1],"EVENT_TOGGLESOUND":[1,11,12,1]},"SCROLL":[20,12,30,19,1],"Use40Column":1,"Text":"\nÜÜÜÜÜÜÜÜÜÜÜÜ                            \n  Commands   ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \nßßßßßßßßßßßß Û                        Û \n \u0018\u0019\u001a\u001b        Û                        ÛÝ\n   Move      Û                        ÛÝ\n Shift+\u0018\u0019\u001a\u001b  Û                        ÛÝ\n   Shoot     Û                        ÛÝ\n H Hint      Û                        ÛÝ\n S Save Game Û                        ÛÝ\n R Restore   Û                        ÛÝ\n B Be Quiet  Û                        ÛÝ\n Q Quit      Û                        ÛÝ\n C Console   Û                        ÛÝ\nÜÜÜÜÜÜÜÜÜÜÜÜ Û                        ÛÝ\n   Status    Û                        ÛÝ\nßßßßßßßßßßßß Û                        ÛÝ\nHealth       Û                        ÛÝ\n             Û                        ÛÝ\n Gems \u0004      Û                        ÛÝ\n Ammo       Û                        ÛÝ\n Keys        Û                        ÛÝ\n             Û                        ÛÝ\n Score       ßßßßßßßßßßßßßßßßßßßßßßßßßßÝ\n                                        \n                                        \n","Color":[29,12,31,28,111,12,31,28,109,12,31,2,15,24,31,2,111,12,31,2,15,24,31,1,23,1,110,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,107,12,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,107,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,110,9,31,2,15,24,31,1,23,1,111,3,107,7,111,2,31,2,15,24,31,1,23,1,29,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,109,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,6,98,1,111,3,110,1,111,1,31,2,15,24,31,1,23,1,111,6,107,1,111,5,31,2,15,24,31,1,23,1,111,12,31,2,15,24,31,1,23,1,111,10,110,1,111,1,31,2,15,24,31,1,23,1,111,12,23,1,31,1,127,25,23,1,111,12,31,28,111,12,31,28],"GuiLocY":1,"GuiLocX":1,"Label":{"FILEMESSAGE":[13,24,20,31],"KEY0":[11,22,1,104],"EXTRAINVLABEL":[8,25,4,110,1],"KEY1":[4,22,1,105],"SCORELABEL":[7,23,5,110,1],"KEY2":[5,22,1,106],"FILEENTRY":[13,25,12,15],"KEY3":[6,22,1,107],"KEY4":[7,22,1,108],"HEALTHBAR":[8,17,5,110],"KEY5":[8,22,1,109],"CONFMESSAGE":[13,24,20,31],"KEY6":[9,22,1,110],"PAUSEDMESSAGELOC":[15,25,20,31],"KEY7":[10,22,1,111],"STONEAMT":[10,24,2,110,1],"LOADINGANIM":[20,24,5,31],"LOADINGLOC":[13,24,7,31],"TOAST1":[12,24,28,31],"SOUNDLABEL":[4,11,8,110],"GEMSLABEL":[8,19,4,110,1],"CHEATLOC":[15,25,20,31],"EXTRAINV":[2,25,6,111],"STONELABEL":[2,24,8,111],"AMMOLABEL":[8,20,4,110,1],"TOAST2":[12,25,28,31]},"OverallSizeX":40,"Viewport":[15,3,24,20]},
+"SZTINTRO":{"GuiHeight":25,"GuiLocX":1,"Text":"\n                    Introduction        \n             ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ \n             Û                        Û \n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n    Press    Û                        ÛÝ\n             Û                        ÛÝ\n    ENTER \u0000  Û                        ÛÝ\n             Û                        ÛÝ\n to continue Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             Û                        ÛÝ\n             ßßßßßßßßßßßßßßßßßßßßßßßßßßÝ\n                                        \n                                        \n","SCROLL":[20,12,30,19,1],"Color":[31,20,30,12,31,8,31,40,31,14,15,24,31,2,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,4,30,5,31,5,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,1,30,11,31,2,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,14,15,24,31,1,23,1,31,12,23,1,31,1,127,25,23,1,31,40,31,40],"Label":{"FILEMESSAGE":[13,24,20,31],"FILEENTRY":[13,25,12,15],"CONFMESSAGE":[13,24,20,31],"TOAST1":[13,24,26,31],"TOAST2":[13,25,26,31]},"Use40Column":1,"OverallSizeY":25,"KeyInput":{"27":"EVENT_QUITGAME","13":"EVENT_SZT_START","Q":"EVENT_QUITGAME","H":"EVENT_GAMEHINT"},"GuiLocY":1,"MouseInput":{"EVENT_SZT_START":[5,13,5,1]},"GuiWidth":40,"OverallSizeX":40,"Viewport":[15,3,24,20]},
+"OPTIONSGUI":{"GuiHeight":25,"Viewport":[1,26,2,2],"GuiLocX":1,"GuiWidth":80,"Label":{"COORDX":[9,3,15,30],"CONFIGTYPE":[21,7,9,30],"PROPDESC":[3,25,76,31]},"MouseInput":{"OPT_MOVE":[1,13,20,1],"OPT_SZT":[1,19,20,1],"OPT_ZZT":[1,18,20,1],"OPT_KEY":[1,12,20,1],"OPT_HELP":[1,21,20,1],"OPT_DISPLAY":[1,10,20,1],"OPT_SCROLL":[1,16,20,1],"OPT_RESET":[1,22,20,1],"OPT_QUIT":[1,5,20,1],"OPT_GENERAL":[1,9,20,1],"OPT_GAMEPLAY":[1,11,20,1],"OPT_CONFIG":[1,7,20,1],"OPT_TIMING":[1,14,20,1],"OPT_SOUND":[1,15,20,1]},"OverallSizeX":80,"Use40Column":0,"OverallSizeY":25,"KeyInput":{"27":"OPT_QUIT","49":"OPT_DISPLAY","50":"OPT_GAMEPLAY","51":"OPT_KEY","52":"OPT_MOVE","53":"OPT_TIMING","54":"OPT_SOUND","55":"OPT_SCROLL","A":"OPT_GENERAL","S":"OPT_SZT","H":"OPT_HELP","R":"OPT_RESET","Z":"OPT_ZZT","Q":"OPT_QUIT","C":"OPT_CONFIG"},"Text":"\nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                  \n      ZZT Ultra Options      ³                                                  \nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´                                                  \n                             ³                                                  \n  Esc  Back                  ³                                                  \n                             ³                                                  \n  C  Config Style:           ³                                                  \n                             ³                                                  \n  A  Edit All (JSON)         ³                                                  \n  1  Display                 ³                                                  \n  2  Gameplay                ³                                                  \n  3  Key collection          ³                                                  \n  4  Motion                  ³                                                  \n  5  Timing                  ³                                                  \n  6  Sound/Message           ³                                                  \n  7  Scrolls                 ³                                                  \n                             ³                                                  \n  Z  ZZT-specific            ³                                                  \n  S  SZT-specific            ³                                                  \n                             ³                                                  \n  H  Help                    ³                                                  \n  R  Reset to Defaults       ³                                                  \nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                  \n                                                                                \n                                                                                \n","Color":[30,30,31,50,30,30,31,50,30,30,31,50,31,16,30,11,31,2,30,1,31,50,31,1,112,5,31,14,30,7,31,2,30,1,31,50,31,18,30,10,31,1,30,1,31,50,31,1,112,3,31,14,30,12,31,50,31,23,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,31,23,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,31,23,30,1,31,5,30,1,31,50,31,1,48,3,31,19,30,1,31,5,30,1,31,50,31,1,112,3,31,19,30,1,31,5,30,1,31,50,30,30,31,50,31,80,31,80],"GuiLocY":1},
+"OPTIONSEDITGUI":{"GuiHeight":25,"Viewport":[1,26,2,2],"GuiLocX":1,"GuiWidth":80,"Label":{"PROPLABEL1":[36,5,25,31],"PROPTITLE":[36,2,40,31],"PROPDESC":[3,25,76,31],"COORDX":[9,3,15,30],"CONFIGTYPE":[21,7,9,30],"PROPVALUE1":[61,5,20,15]},"MouseInput":{"OPT_QUIT":[1,5,20,1]},"OverallSizeX":80,"Use40Column":0,"OverallSizeY":25,"KeyInput":{"38":"OPT_UP","40":"OPT_DOWN","27":"OPT_QUIT","13":"OPT_EDIT","Q":"OPT_QUIT"," ":"OPT_EDIT","H":"OPT_HELP"},"Text":"\nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ    \n      ZZT Ultra Options      ³                                                  \nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ    \n                             ³                                                  \n  Esc  Back                  ³                                                  \n                             ³                                                  \n  C  Config Style:           ³                                                  \n                             ³                                                  \n  A  Edit All (JSON)         ³                                                  \n  1  Display                 ³                                                  \n  2  Gameplay                ³                                                  \n  3  Key collection          ³                                                  \n  4  Motion                  ³                                                  \n  5  Timing                  ³                                                  \n  6  Sound/Message           ³                                                  \n  7  Scrolls                 ³                                                  \n                             ³                                                  \n  Z  ZZT-specific            ³                                                  \n  S  SZT-specific            ³                                                  \n                             ³                                                  \n  H  Help                    ³                                                  \n  R  Reset to Defaults       ³                                                  \nÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                  \n                                                                                \n                                                                                \n","Color":[30,30,31,3,30,43,31,4,30,30,31,50,30,30,31,3,30,43,31,4,31,16,30,11,31,2,30,1,31,50,31,1,112,5,31,14,30,7,31,2,30,1,31,50,31,18,30,10,31,1,30,1,31,50,31,1,24,3,31,1,23,13,30,12,31,50,31,23,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,15,31,3,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,7,31,11,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,8,31,10,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,14,31,4,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,6,31,12,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,6,31,12,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,13,31,5,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,7,31,11,30,1,31,5,30,1,31,50,31,23,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,12,31,6,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,12,31,6,30,1,31,5,30,1,31,50,31,23,30,1,31,5,30,1,31,50,31,1,19,3,31,1,23,4,31,14,30,1,31,5,30,1,31,50,31,1,24,3,31,1,23,17,31,1,30,1,31,5,30,1,31,50,30,30,31,50,31,80,31,80],"GuiLocY":1},
+"CONSOLEGUI":{"OverallSizeX":80,"GuiLocX":61,"KeyInput":{"112":"CON_BOARDPROP","113":"CON_WORLDPROP","114":"CON_GLOBALVAR","Shift+191":"CON_CHEAT","H":"CON_HELP","27":"CON_QUIT","191":"CON_CHEAT"},"MouseInput":{"CON_WORLDPROP":[1,12,20,1],"CON_CHEAT":[1,15,20,1],"CON_BOARDPROP":[1,11,20,1],"CON_GLOBALVAR":[1,13,20,1],"CON_HELP":[1,18,20,1],"CON_QUIT":[1,5,20,1]},"Use40Column":0,"Label":{"CONFMESSAGE":[-59,25,60,15]},"Viewport":[1,1,60,25],"Color":[31,20,31,1,112,18,31,1,31,20,31,20,31,1,112,5,31,14,31,20,31,20,31,20,31,20,31,20,31,1,112,4,31,15,31,1,48,4,31,15,31,1,112,4,31,15,31,20,31,1,112,3,31,16,31,20,31,20,31,1,112,3,31,16,31,20,31,20,31,20,31,20,31,20,31,20,31,20],"GuiWidth":20,"OverallSizeY":25,"GuiHeight":25,"GuiLocY":1,"Text":"\n    - - - - - -     \n  ZZT Ultra Console \n    - - - - - -     \n                    \n  Esc  Back         \n                    \n                    \n                    \n                    \n                    \n  F1  Board Prop.   \n  F2  World Prop.   \n  F3  Global Vars   \n                    \n  ?   Extended Cheat\n                    \n                    \n  H   Help          \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n"}
+}

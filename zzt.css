@@ -1,0 +1,320 @@
+.ZZUTEXTAREA
+{
+    outline: none;
+	border: 2px solid #8080ff;
+	padding: 2px;
+	font-family: Courier New, Courier;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+    background-color: #0000ff;
+
+	position: absolute;
+	left: 10px;
+	top: 40px;
+}
+.HOMTEXTAREA
+{
+	border: 2px solid #8080ff;
+	padding: 2px;
+	font-family: Courier New, Courier;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+H1
+{
+	display:block;
+	font-family:Arial;
+	font-weight:bold;
+	color:#C0FFFF;
+	text-align:center;
+}
+H2
+{
+	display:block;
+	font-family:Arial;
+	font-weight:bold;
+	color:#C0FFFF;
+	text-align:center;
+}
+H3
+{
+	display:block;
+	font-family:Arial;
+	font-weight:bold;
+	color:#C0FFFF;
+	text-align:left;
+}
+H4
+{
+	display:block;
+	font-family:Arial;
+	font-weight:bold;
+	color:#C0FFFF;
+	text-align:left;
+}
+BIG
+{
+	display:block;
+	font-size:larger;
+	font-family:Arial;
+	font-weight:bold;
+	color:#FFFFC0;
+	text-align:left;
+}
+P
+{
+	text-align:left;
+	font-family:Arial;
+}
+B
+{
+	color:#C0FFFF;
+	font-weight:bold;
+}
+Y
+{
+	color:#FFC0C0;
+	font-weight:bold;
+}
+SMALL
+{
+	color:#FFFFC0;
+	font-size:smaller;
+	font-weight:bold;
+}
+REDL
+{
+	color:Red;
+	font-weight:bold;
+}
+YELLOWL
+{
+	color:#FFFF80;
+	font-weight:bold;
+}
+GREENL
+{
+	color:#80FF80;
+	font-weight:bold;
+}
+BLUEL
+{
+	color:#80D0FF;
+	font-weight:bold;
+}
+GRAYL
+{
+	color:#C0D0D0;
+	font-weight:bold;
+}
+BLUENORML
+{
+	color:#C0E0FF;
+}
+GRAYNORML
+{
+	color:#C0D0D0;
+}
+REDUPDATE
+{
+	display:block;
+	font-size:larger;
+	font-family:Arial;
+	font-weight:bold;
+	color:Red;
+	text-align:center;
+}
+BLUEUPDATE
+{
+	display:block;
+	font-size:larger;
+	font-family:Arial;
+	font-weight:bold;
+	color:Aqua;
+	text-align:center;
+}
+SMALLITAL
+{
+	color:White;
+	font-size:smaller;
+	font-style:italic;
+}
+WTEXT
+{
+	color:White;
+	font-family:Arial;
+	font-size:larger;
+	font-style:normal;
+}
+LBTEXT
+{
+	color:#C0FFFF;
+	font-size:smaller;
+}
+	
+
+LI
+{
+	list-style-image: url(img/pointer_bullet.gif);
+}
+EMPTY
+{
+	content: url(img/empty.gif);
+}
+ZCOM
+{
+	display:block;
+	text-align:left;
+	font-family:Arial;
+	color:#FFFF00;
+	font-weight:bold;
+}
+ZSTAT
+{
+	display:block;
+	text-align:left;
+	font-family:Arial;
+	color:#FFFF00;
+	font-weight:bold;
+}
+ZTITLE
+{
+	display:block;
+	text-align:left;
+	font-family:Arial;
+	color:#80FFC0;
+	font-weight:bold;
+}
+ZPARAM
+{
+	font-family:Arial;
+	color:#80FF80;
+	font-weight:bold;
+}
+
+.TITLE_L
+{
+	background: url("img/logo_mid_trim_l.gif");
+	height: 94px;
+}
+.TITLE_M
+{
+	background: url("img/logo_mid.gif");
+	width: 675px;
+	height: 94px;
+}
+.TITLE_R
+{
+	background: url("img/logo_mid_trim_r.gif");
+	height: 94px;
+}
+.BLOCK_UL
+{
+	background: url("img/block_ul_b.gif");
+	width: 64px;
+	height: 64px;
+}
+.BLOCK_UR
+{
+	background: url("img/block_ur_b.gif");
+	width: 64px;
+	height: 64px;
+}
+.BLOCK_H
+{
+	background: url("img/block_h_b.gif");
+	height: 64px;
+}
+.BLOCK_V
+{
+	background: url("img/block_v_b.gif");
+	width: 64px;
+}
+.BLOCK_V2
+{
+	background: url("img/block_v2_b.gif");
+	width: 64px;
+}
+.SCROLL_L
+{
+	background: url("img/scroll_l.gif");
+	width: 32px;
+	height: 24px;
+}
+.SCROLL_M
+{
+	background: url("img/scroll_m.gif");
+	height: 24px;
+}
+.SCROLL_R
+{
+	background: url("img/scroll_r.gif");
+	width: 32px;
+	height: 24px;
+}
+.SCROLL_V
+{
+	background: url("img/scroll_vl.gif");
+	width: 32px;
+}
+.SCROLL_V2
+{
+	background: url("img/scroll_vr.gif");
+	width: 32px;
+}
+.SCROLL_L_2
+{
+	background: url("img/scroll_l2.gif");
+	width: 32px;
+	height: 24px;
+}
+.SCROLL_M_2
+{
+	background: url("img/scroll_m2.gif");
+	height: 24px;
+}
+.SCROLL_R_2
+{
+	background: url("img/scroll_r2.gif");
+	width: 32px;
+	height: 24px;
+}
+.SCROLL_V_2
+{
+	background: url("img/scroll_vl2.gif");
+	width: 32px;
+}
+.SCROLL_V2_2
+{
+	background: url("img/scroll_vr2.gif");
+	width: 32px;
+}
+
+.sbar-head {
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.sbar-cont {
+  width: 100%;
+  height: 16px;
+  background: #808080;
+}
+.sbar-bar {
+  height: 16px;
+  background: #ffffff;
+  width: 0%;
+}
+
+.msg_overlay {
+  position: absolute;
+  left: 600px;
+  top: 600px;
+  z-index: 2;
+  width: 420px;
+  height: 220px;
+  background-color: #0000ff;
+}
